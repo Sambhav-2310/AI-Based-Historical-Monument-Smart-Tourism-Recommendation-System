@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Recommendations — Heritage AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .user-preferences {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-left: 4px solid #c9a665;
+    }
+    
+    .pref-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+    
+    .pref-item {
+      background: white;
+      padding: 12px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .pref-item strong {
+      display: block;
+      color: #c9a665;
+      font-size: 0.9em;
+      margin-bottom: 5px;
+    }
+    
+    .pref-value {
+      color: #333;
+      font-size: 1.1em;
+    }
+    
+    .error-message {
+      background-color: #ffe6e6;
+      border: 2px solid #ff4444;
+      color: #cc0000;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 500;
+    }
+    
+    .match-score {
+      display: inline-block;
+      background: linear-gradient(135deg, #c9a665, #e6c99e);
+      color: white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+    
+    .card-rating {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+    
+    .star {
+      color: #c9a665;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="brand">🏛 Heritage AI</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/form">Recommend</a></li>
+        <li><a href="/results" class="active">Results</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Main Content ===== -->
+  <main class="form-wrapper">
+    
+    <!-- Error Message (if any)-->
+    {% if error_message %}
+      <div class="error-message">
+        {{ error_message }}
+      </div>
+      <div style="text-align: center; margin: 30px 0;">
+        <a href="/form" class="btn btn-gold">← Go Back to Form</a>
+      </div>
+    {% else %}
+    
+    <!-- User Preferences Summary -->
+    {% if user_prefs %}
+      <div class="user-preferences">
+        <h3>Your Preferences</h3>
+        <div class="pref-row">
+          {% if user_prefs.category %}
+            <div class="pref-item">
+              <strong>📚 Category</strong>
+              <div class="pref-value">{{ user_prefs.category }}</div>
+            </div>
+          {% endif %}
+          
+          {% if user_prefs.budget %}
+            <div class="pref-item">
+              <strong>💰 Budget</strong>
+              <div class="pref-value">{{ user_prefs.budget }}</div>
+            </div>
+          {% endif %}
+          
+          {% if user_prefs.state_city %}
+            <div class="pref-item">
+              <strong>📍 Location</strong>
+              <div class="pref-value">{{ user_prefs.state_city }}</div>
+            </div>
+          {% endif %}
+          
+          {% if user_prefs.season %}
+            <div class="pref-item">
+              <strong>🌤️ Season</strong>
+              <div class="pref-value">{{ user_prefs.season }}</div>
+            </div>
+          {% endif %}
+          
+          {% if user_prefs.crowd %}
+            <div class="pref-item">
+              <strong>👥 Crowd</strong>
+              <div class="pref-value">{{ user_prefs.crowd }}</div>
+            </div>
+          {% endif %}
+          
+          {% if user_prefs.weather %}
+            <div class="pref-item">
+              <strong>🌡️ Weather</strong>
+              <div class="pref-value">{{ user_prefs.weather }}</div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Results Section -->
+    {% if recommendations and recommendations|length > 0 %}
+    
+    <section class="section">
+      <h2 class="section-title">🏆 Recommended Monuments For You</h2>
+      <p class="section-sub">
+        Based on your preferences, our ML model suggests these {{ recommendations|length }} heritage destinations.
+      </p>
+
+      <div class="cards-grid">
+        
+        {% for rec in recommendations %}
+        <article class="card">
+          <div class="card-body">
+            <!-- Monument Name & Rating -->
+            <h3 class="card-title">{{ rec.monument }}</h3>
+            <div class="card-rating">
+              <span class="star">⭐</span>
+              <strong>{{ rec.rating }}</strong>
+            </div>
+            
+            <!-- Location -->
+            <p class="card-meta">📍 {{ rec.city }}, {{ rec.state }}</p>
+            
+            <!-- Description -->
+            <p class="card-desc">{{ rec.description }}</p>
+            
+            <!-- Details Tags -->
+            <div class="card-tags">
+              <span class="tag">📂 {{ rec.category }}</span>
+              <span class="tag">💰 {{ rec.budget }}</span>
+              <span class="tag">🌤️ {{ rec.season }}</span>
+              <span class="tag">👥 {{ rec.crowd_level }}</span>
+              <span class="tag">🌡️ {{ rec.weather }}</span>
+            </div>
+            
+            <!-- Match Score -->
+            <div class="match-score">
+              Match: {{ rec.match_score }}%
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+        
+      </div>
+
+      <!-- Action Buttons -->
+      <div style="text-align: center; margin-top: 40px; display: flex; justify-content: center; gap: 15px;">
+        <a href="/form" class="btn btn-gold">← Refine Preferences</a>
+        <a href="/" class="btn">🏠 Back Home</a>
+      </div>
+    </section>
+
+    {% else %}
+    
+    <!-- No Results Case -->
+    <section class="section" style="text-align: center;">
+      <h2 class="section-title">[WARNING] No Recommendations Found</h2>
+      <p class="section-sub">
+        We couldn't find monuments matching your preferences. Please try adjusting your selections.
+      </p>
+      <div style="margin-top: 30px;">
+        <a href="/form" class="btn btn-gold">← Try Different Preferences</a>
+      </div>
+    </section>
+    
+    {% endif %}
+
+    {% endif %}
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">© 2025 Heritage AI • ML-Powered Recommendations</footer>
+
+</body>
+</html>

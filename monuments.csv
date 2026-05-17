@@ -1,0 +1,555 @@
+monument_name,city,state,category,budget,best_season,crowd_level,weather_type,rating,description
+Taj Mahal,Agra,Uttar Pradesh,UNESCO World Heritage,Moderate,October-March,High,Moderate,4.8,An iconic white marble mausoleum built by Mughal Emperor Shah Jahan. One of the most beautiful monuments in the world and a symbol of eternal love.
+India Gate,Delhi,Delhi,Monument,Low,October-March,Very High,Moderate,4.6,A war memorial arch dedicated to fallen soldiers. Located in central Delhi and is a popular gathering spot for tourists and locals.
+Hawa Mahal,Jaipur,Rajasthan,Palace,Moderate,October-March,High,Hot,4.5,The Pink City's most iconic structure with 953 small windows. Built in 1799 for royal women to observe street life without being seen.
+Qutub Minar,Delhi,Delhi,Monument,Low,October-March,High,Moderate,4.7,A towering minaret built in 1193. The highest minaret in India with intricate Islamic architecture and historical significance.
+Red Fort,Delhi,Delhi,Fort,Low,October-March,High,Moderate,4.5,A massive fortified palace complex built by Mughal Emperor Shah Jahan. Currently a UNESCO World Heritage Site and symbol of India's independence.
+Mysore Palace,Mysore,Karnataka,Palace,Moderate,October-March,Moderate,Moderate,4.6,A grand royal palace with Indo-Gothic architecture. Illuminated at night and serves as a major cultural hub of Mysore.
+Varanasi Ghats,Varanasi,Uttar Pradesh,Religious,Low,October-March,High,Moderate,4.4,Sacred bathing ghats along the Ganges river. Considered the spiritual capital of India with immense religious and cultural significance.
+Konark Sun Temple,Konark,Odisha,Temple,Moderate,October-March,Moderate,Moderate,4.5,A 13th-century temple designed as a giant statue of the sun god's chariot. Known for its intricate stone carvings and astronomical alignments.
+Khajuraho Temples,Khajuraho,Madhya Pradesh,Temple,Moderate,October-March,Moderate,Moderate,4.6,A group of Hindu and Jain temples with extraordinary sculptural art. Famous for their medieval architecture and intricate stone work.
+Charminar,Hyderabad,Telangana,Monument,Low,October-March,Very High,Hot,4.4,A 16th-century monument and symbol of Hyderabad. Surrounded by vibrant markets and bazaars in the old city.
+Kingdom of Dreams,Gurgaon,Haryana,Entertainment,Moderate,September-March,Moderate,Moderate,4.2,A sprawling amusement and entertainment park showcasing Indian culture and heritage through modern entertainment.
+Amber Fort,Jaipur,Rajasthan,Fort,Moderate,October-March,High,Hot,4.7,A majestic mountaintop fort palace with a blend of Hindu and Mughal architecture. Offers spectacular views of Jaipur city.
+Jantar Mantar,Jaipur,Rajasthan,Monument,Low,October-March,Moderate,Hot,4.3,An astronomical observation site built by Maharaja Sawai Jai Singh II. Recognized as a UNESCO World Heritage Site.
+Sanchi Stupa,Sanchi,Madhya Pradesh,Buddhist Monument,Moderate,October-March,Low,Moderate,4.5,An ancient Buddhist structure with intricate stone carvings. One of the oldest stone structures in India dating back to 3rd century BC.
+Gateway of India,Mumbai,Maharashtra,Monument,Low,October-March,Very High,Moderate,4.5,An arch monument built during the British Raj. Overlooking the Arabian Sea and serving as a symbolic entrance to Mumbai.
+Fort Kochi,Kochi,Kerala,Fort,Moderate,August-March,Moderate,Humid,4.4,A historic port town with colonial architecture and Jewish synagogue. Popular for backwaters exploration and spice trade heritage.
+Meenakshi Temple,Madurai,Tamil Nadu,Temple,Low,January-March,High,Hot,4.5,A historic Hindu temple dedicated to Meenakshi. Known for its towering gopurams and annual Meenakshi Tirupavadai festival.
+Hampi Ruins,Hampi,Karnataka,Archaeological Monument,Moderate,October-March,Moderate,Hot,4.6,Ruins of the Vijayanagara Empire with stunning rock formations. A UNESCO World Heritage Site with rich historical and architectural significance.
+Ajanta & Ellora Caves,Aurangabad,Maharashtra,Buddhist Monument,Moderate,August-March,Moderate,Moderate,4.5,Ancient cave temples with intricate Buddhist and Hindu sculptures. UNESCO World Heritage Sites showcasing 2000 years of Indian art.
+Bodhgaya Temple,Bodh Gaya,Bihar,Buddhist Temple,Low,September-March,Low,Moderate,4.4,A sacred Buddhist pilgrimage site where Buddha attained Nirvana. Home to the Mahabodhi Temple and revered meditation spot.
+Ranthambore Fort,Ranthambore,Rajasthan,Fort,Moderate,September-March,Moderate,Moderate,4.5,A hilltop fort within Ranthambore National Park. Offers opportunities to spot Bengal tigers and explore 10th-century ruins.
+Jaisalmer Fort,Jaisalmer,Rajasthan,Fort,Moderate,September-March,Moderate,Hot,4.4,A golden sandstone fort in the Thar desert. Over 800 years old with intricate havelis and a thriving community within its walls.
+Victoria Memorial,Kolkata,West Bengal,Monument,Low,October-March,Moderate,Moderate,4.5,A marble-domed building dedicated to Queen Victoria. An iconic symbol of Kolkata's colonial heritage and a museum.
+Chitradurga Fort,Chitradurga,Karnataka,Fort,Low,October-March,Low,Hot,4.3,An ancient fort with seven interconnected walls. Contains water tanks carved inside rocky terrain and stunning architectural design.
+Tirupati Temple,Tirupati,Andhra Pradesh,Temple,Moderate,January-March,Very High,Hot,4.6,One of the most visited Hindu temples dedicated to Lord Venkateshwara. Housing invaluable ornaments and gold deposits.
+Gateways of Agra Fort,Agra,Uttar Pradesh,Fort,Low,October-March,High,Moderate,4.3,Ancient gateways of the Mughal fortress. Showcasing intricate Islamic calligraphy and architectural excellence.
+Kailasanatha Temple,Kanchipuram,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.4,A 7th-century Hindu temple with magnificent architecture. Known for its intricate carvings and spiritual significance.
+Gol Gumbaz,Bijapur,Karnataka,Monument,Low,October-March,Low,Hot,4.2,A 17th-century masonry dome structure. Remains one of the highest domes in the world and an engineering marvel.
+Rajendra Chola Temple,Thanjavur,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.3,A UNESCO World Heritage Site built in the 11th century. Known for its magnificent Dravidian architecture and artistic value.
+Hagia Sophia of Bijapur,Bijapur,Karnataka,Monument,Low,October-March,Low,Hot,4.1,A 16th-century mausoleum with Indo-Islamic architecture. Notable for its geometric design and historical significance.
+Madurai Meenakshi Temple,Madurai,Tamil Nadu,Temple,Low,January-March,High,Hot,4.5,An ancient Hindu temple with stunning gopurams. One of India's largest temples and a major pilgrimage center.
+Rani Ki Vav,Patan,Gujarat,Temple,Moderate,October-March,Low,Hot,4.4,An intricately carved stepwell from the 11th century. A UNESCO World Heritage Site showing exceptional architectural craftsmanship.
+Jami Mosque,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.2,India's largest mosque with impressive Mughal architecture. Historic landmark showcasing Indo-Islamic construction.
+Virupaksha Temple,Hampi,Karnataka,Temple,Low,October-March,Moderate,Hot,4.4,An ancient Hindu temple with intricate carvings. Located in the UNESCO World Heritage site of Hampi ruins.
+Chola Temples of Tamil Nadu,Thanjavur,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.4,A cluster of temples showcasing Chola dynasty architecture. Important centers of Hindu worship and cultural heritage.
+Brihadisvara Temple,Thanjavur,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.6,An 11th-century temple with magnificent tower. UNESCO World Heritage Site and finest example of Chola architecture.
+Padmanabhaswamy Temple,Thiruvananthapuram,Kerala,Temple,Low,Year-round,Moderate,Humid,4.5,An ancient Hindu temple dedicated to Lord Vishnu. Known for its Dravidian architecture and underground vaults.
+Srirangam Temple,Trichy,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.4,One of the largest functioning Hindu temples. Features stunning gopurams and traditional Dravidian architecture.
+Mahabalipuram Temples,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.5,Ancient shore temples and rock-cut carvings. UNESCO World Heritage Site with exceptional Pallava dynasty architecture.
+Dwarka Temple,Dwarka,Gujarat,Temple,Low,October-March,Moderate,Hot,4.3,One of the four cardinal pilgrimage sites for Hindus. Ancient temple dedicated to Lord Krishna with historical significance.
+Somnath Temple,Somnath,Gujarat,Temple,Low,October-March,Moderate,Hot,4.3,An important Hindu pilgrimage site and temple. Known for its Nagara-style architecture and spiritual significance.
+Jagannath Temple,Puri,Odisha,Temple,Low,January-March,High,Humid,4.5,An ancient Hindu temple and major pilgrimage site. Famous for the annual Rath Yatra festival and intricate carvings.
+Lingaraj Temple,Bhubaneswar,Odisha,Temple,Low,October-March,Moderate,Humid,4.3,A 11th-century Hindu temple with Kalinga architecture. Known for its distinctive tower and sculptural details.
+Rameshwaram Temple,Rameshwaram,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.4,An ancient temple dedicated to Lord Shiva. Important pilgrimage center with intricate pillars and sacred tanks.
+Kashi Vishwanath Temple,Varanasi,Uttar Pradesh,Temple,Low,October-March,High,Moderate,4.5,A sacred Hindu temple dedicated to Lord Shiva. One of the oldest and most important pilgrimage sites in India.
+Kedarnath Temple,Kedarnath,Uttarakhand,Temple,Moderate,May-October,Moderate,Cold,4.4,A high-altitude temple dedicated to Lord Shiva. Located in the Himalayas and an important pilgrimage site.
+Badrinath Temple,Badrinath,Uttarakhand,Temple,Moderate,May-October,Moderate,Cold,4.4,An ancient temple dedicated to Lord Vishnu. One of the four cardinal Himalayan pilgrimage sites.
+Darjeeling Kali Temple,Darjeeling,West Bengal,Temple,Low,September-December,Moderate,Cool,4.2,A temple dedicated to Goddess Kali. Located with panoramic views of Himalayan peaks.
+Orchha Palace,Orchha,Madhya Pradesh,Palace,Moderate,October-March,Low,Moderate,4.3,A medieval palace with Ram Raja Temple and lakefront views. Architectural blend of Hindu and Mughal styles.
+Gwalior Fort,Gwalior,Madhya Pradesh,Fort,Low,October-March,Moderate,Hot,4.4,A medieval hill fort with stunning architecture. Historic stronghold with palace complexes and intricate carvings.
+Jai Vilas Palace,Gwalior,Madhya Pradesh,Palace,Moderate,October-March,Moderate,Hot,4.3,A 19th-century royal palace with European architecture. Known for its lavish interiors and historical museum.
+Jodhpur Fort,Jodhpur,Rajasthan,Fort,Moderate,October-March,High,Hot,4.5,A massive fort overlooking the Blue City. Known for its impressive architecture and panoramic views.
+Mehrangarh Fort,Jodhpur,Rajasthan,Fort,Moderate,October-March,Moderate,Hot,4.6,A dramatic cliffside fort with intricate architecture. Houses museum with royal artifacts and historical exhibits.
+Chittorgarh Fort,Chittorgarh,Rajasthan,Fort,Moderate,October-March,Moderate,Hot,4.5,A massive historical fortress complex. Important site of valor and sacrifice in Rajasthan's history.
+Neemrana Fort,Neemrana,Rajasthan,Fort,Moderate,October-March,Moderate,Hot,4.4,A 15th-century fort now heritage hotel. Features dramatic architecture and panoramic views of Aravalli Hills.
+Alwar City Palace,Alwar,Rajasthan,Palace,Moderate,October-March,Low,Moderate,4.2,A 19th-century royal palace with Indo-Mughal architecture. Showcases historical artifacts and royal heritage.
+City Palace Jaipur,Jaipur,Rajasthan,Palace,Moderate,October-March,High,Hot,4.4,A blend of Mughal and Rajasthani architecture. Still partially a royal residence with museum sections.
+Udaipur City Palace,Udaipur,Rajasthan,Palace,Moderate,October-March,Moderate,Moderate,4.5,A stunning lakeside palace with intricate architecture. One of Rajasthan's most iconic structures.
+Panelhi Mahal,Udaipur,Rajasthan,Palace,Moderate,October-March,Moderate,Moderate,4.4,A water palace with unique mirrored interiors. Built in the middle of Lake Pichola.
+Chandra Mahal,Jaipur,Rajasthan,Palace,Moderate,October-March,Moderate,Hot,4.3,A seven-story palace with traditional Rajasthani design. Part of the City Palace complex.
+Fatehpur Sikri,Agra,Uttar Pradesh,Palace,Low,October-March,High,Moderate,4.6,An abandoned royal city with stunning Mughal architecture. UNESCO World Heritage Site with palaces and mosques.
+Akbar's Tomb,Sikandra,Uttar Pradesh,Monument,Low,October-March,Moderate,Moderate,4.3,A monumental tomb of Emperor Akbar. Showcases Indo-Islamic architecture with intricate inlay work.
+Itimad-ud-Daulah's Tomb,Agra,Uttar Pradesh,Monument,Low,October-March,Moderate,Moderate,4.4,A marble mausoleum with delicate architecture. Known as the Baby Taj with exquisite marble inlay.
+Humayun's Tomb,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.5,A UNESCO World Heritage Site with stunning Mughal architecture. Inspired the design of Taj Mahal.
+Safdarjung's Tomb,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.3,An 18th-century mausoleum with Indo-Islamic design. Last great monument of the Mughal era.
+Rajon ki Baoli,Delhi,Delhi,Monument,Low,October-March,Low,Moderate,4.1,An intricately carved stepwell from the 16th century. Architectural marvel showcasing Indo-Islamic art.
+Lal Quila Red Fort,Delhi,Delhi,Fort,Low,October-March,High,Moderate,4.5,Historic Mughal fortress and residence. UNESCO World Heritage Site with rich historical significance.
+Lahori Gate,Delhi,Delhi,Monument,Low,October-March,Very High,Moderate,4.3,Historic gate of the Red Fort complex. Served as entrance to the imperial fort and market.
+Jama Masjid,Delhi,Delhi,Monument,Low,October-March,Very High,Moderate,4.3,One of the largest mosques in India. Built by Mughal Emperor Shah Jahan with impressive architecture.
+Raj Ghat,Delhi,Delhi,Monument,Low,October-March,High,Moderate,4.2,Memorial site of Mahatma Gandhi. Important pilgrimage site with historical and spiritual significance.
+Chandni Chowk,Delhi,Delhi,Monument,Low,October-March,Very High,Moderate,4.2,Historic market street with cultural heritage. Known for traditional shops and architectural diversity.
+Parliament House,Delhi,Delhi,Monument,Low,October-March,Very High,Moderate,4.4,Neo-Gothic building housing Indian Parliament. Architectural landmark with historical significance.
+Rashtrapati Bhawan,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.3,Official residence of the President of India. Neo-Gothic architecture with historical importance.
+National Museum,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.3,Premier museum showcasing Indian art and history. Houses artifacts spanning thousands of years.
+Saket Temple,Delhi,Delhi,Temple,Low,October-March,Moderate,Moderate,4.2,Ancient temple with religious significance. Located in South Delhi's Saket neighborhood.
+Shakti Sthal,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.1,Memorial site dedicated to Indira Gandhi. Historical importance with formal gardens.
+Amar Jawan Jyoti,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.2,War memorial dedicated to Indian soldiers. Eternal flame symbolizing national pride.
+Kutab Minar Complex,Delhi,Delhi,Monument,Low,October-March,High,Moderate,4.5,UNESCO World Heritage Site with multiple monuments. Features the famous Qutub Minar and nearby structures.
+Mehrauli Archaeological Park,Delhi,Delhi,Archaeological Monument,Low,October-March,Low,Moderate,4.3,Historical park with archaeological remnants. Features various monuments from different periods.
+Tughlakabad Fort,Delhi,Delhi,Fort,Low,October-March,Low,Moderate,4.2,Ancient fort ruins with historical significance. Offers panoramic views of Delhi from hilltop.
+Birla Temple,Delhi,Delhi,Temple,Low,October-March,Moderate,Moderate,4.3,Modern Hindu temple with marble architecture. Known for white marble construction.
+Mahatma Gandhi Samadhi,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.2,Memorial site of India's father. Important pilgrimage destination with historical significance.
+Tomb of Isa Khan,Delhi,Delhi,Monument,Low,October-March,Low,Moderate,4.1,16th-century monument with Indo-Islamic architecture. Located near Humayun's tomb complex.
+Lodhi Gardens,Delhi,Delhi,Garden,Low,October-March,Moderate,Moderate,4.3,Historic gardens with ancient tombs. Beautiful park with architectural remnants.
+Hazrat Nizamuddin Dargah,Delhi,Delhi,Religious Monument,Low,October-March,Moderate,Moderate,4.3,Sufi shrine with spiritual significance. Important pilgrimage center for devotees.
+Swaminarayan Akshardham,Delhi,Delhi,Temple,Low,October-March,Very High,Moderate,4.5,Modern Hindu temple complex. Stunning architecture blending traditional and contemporary design.
+Delhi Zoo,Delhi,Delhi,Entertainment,Low,October-March,High,Moderate,4.2,Conservation and exhibition zoo. Houses diverse wildlife species.
+National Stadium,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.1,Historic sports venue hosting major competitions. Architectural landmark of modern India.
+Rashtrapati Nivas,New Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.2,Official residence of President. Architectural blend of Indo-Islamic and modern styles.
+Sangit Natak Akademi,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.1,Institution promoting performing arts. Located in cultural center of New Delhi.
+Indira Gandhi Memorial,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.2,Memorial to former Prime Minister. Historic garden with ancestral home.
+Teen Murti House,Delhi,Delhi,Monument,Low,October-March,Moderate,Moderate,4.1,Official residence of Prime Minister. Historical significance in India's independence.
+Chhatrapati Shivaji Terminus,Mumbai,Maharashtra,Monument,Low,October-March,Very High,Moderate,4.4,UNESCO World Heritage railway station. Gothic-Revival architecture with historical importance.
+Gateway of India Mumbai,Mumbai,Maharashtra,Monument,Low,October-March,Very High,Moderate,4.5,Iconic arch monument overlooking Arabian Sea. Major tourist attraction and historical landmark.
+Rajabai Tower,Mumbai,Maharashtra,Monument,Low,October-March,Moderate,Moderate,4.3,Gothic Revival tower in university campus. Architectural landmark of Mumbai.
+Flora Fountain,Mumbai,Maharashtra,Monument,Low,October-March,Very High,Moderate,4.3,Historic fountain in commercial district. Victorian architecture monument.
+Prince of Wales Museum,Mumbai,Maharashtra,Monument,Low,October-March,High,Moderate,4.4,Museum showcasing Indian art and artifacts. Neo-Gothic architecture with historical collections.
+Fort Area Walls,Mumbai,Maharashtra,Fort,Low,October-March,Very High,Moderate,4.2,Historical fort walls and structures. Remnants of British colonial architecture.
+St. George's Fort,Mumbai,Maharashtra,Fort,Low,October-March,Very High,Moderate,4.2,Historic fort complex in Mumbai. Colonial-era fortification.
+Elephanta Caves,Mumbai,Maharashtra,Cave Temple,Moderate,October-March,High,Moderate,4.5,UNESCO World Heritage cave temple. Ancient Hindu caves with intricate sculptures.
+Mani Bhavan,Mumbai,Maharashtra,Monument,Low,October-March,Moderate,Moderate,4.3,Historical building and Gandhian study center. Where Gandhi stayed during visits to Mumbai.
+Dr. Ambedkar National Memorial,Mumbai,Maharashtra,Monument,Low,October-March,Moderate,Moderate,4.2,Memorial to Dr. Ambedkar. Historical importance in India's social reform.
+Siddhivinayak Temple,Mumbai,Maharashtra,Temple,Low,October-March,Very High,Moderate,4.4,Ancient Hindu temple with religious significance. Popular pilgrimage destination.
+Haji Ali Dargah,Mumbai,Maharashtra,Religious Monument,Low,October-March,Very High,Moderate,4.4,Sufi shrine on island. Important Islamic pilgrimage site.
+Bandra Fort,Mumbai,Maharashtra,Fort,Low,October-March,Moderate,Moderate,4.2,Colonial-era fort with historical significance. Offers views of Arabian Sea.
+Marine Drive,Mumbai,Maharashtra,Monument,Low,October-March,Very High,Moderate,4.4,Historic seafront promenade. Known as the Queen's Necklace of Mumbai.
+Hanging Gardens,Mumbai,Maharashtra,Garden,Low,October-March,High,Moderate,4.2,Victorian-era garden with city views. Historic horticultural landmark.
+Mahim Causeway,Mumbai,Maharashtra,Monument,Low,October-March,Very High,Moderate,4.2,Historic causeway connecting islands. Important infrastructure in Mumbai's development.
+Dakshin Chitra,Chennai,Tamil Nadu,Museum,Moderate,January-March,Moderate,Hot,4.3,Living museum showcasing South Indian culture. Features traditional architecture and crafts.
+Kapaleeshwara Temple,Chennai,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.4,Ancient Hindu temple with Dravidian architecture. Known for intricate gopurams and sculptures.
+Fort St. George,Chennai,Tamil Nadu,Fort,Low,January-March,Moderate,Hot,4.3,Historic British fort and museum. Colonial architecture with historical significance.
+San Thome Cathedral,Chennai,Tamil Nadu,Church,Low,January-March,Moderate,Hot,4.2,Neo-Gothic church architecture. Important Christian pilgrimage site.
+National Art Gallery,Chennai,Tamil Nadu,Museum,Low,January-March,Moderate,Hot,4.2,Showcasing Indian art and culture. Located in historic building.
+Government Museum,Chennai,Tamil Nadu,Museum,Low,January-March,Moderate,Hot,4.3,Museum with archaeological and natural history collections. Important cultural institution.
+Parthasarathy Temple,Chennai,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.3,Ancient Hindu temple with artistic sculptures. Known as the Varadaraja Perumal Temple.
+Ashtalakshmi Temple,Chennai,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.2,Unique temple dedicated to eight forms of Lakshmi. Located on the seafront.
+Guindy National Park,Chennai,Tamil Nadu,Nature Reserve,Low,January-March,Moderate,Hot,4.2,Urban wildlife sanctuary. Features diverse fauna and flora.
+Iyappan Temple,Chennai,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.1,Religious shrine with devotional significance. Important pilgrimage site.
+Ripon Building,Chennai,Tamil Nadu,Monument,Low,January-March,High,Hot,4.3,Historic government building. Indo-Saracenic architecture landmark.
+Chepauk Palace,Chennai,Tamil Nadu,Palace,Low,January-March,Moderate,Hot,4.2,18th-century palace complex. Symbol of Nawabi heritage in Chennai.
+Legislative Assembly Building,Chennai,Tamil Nadu,Monument,Low,January-March,Moderate,Hot,4.2,Architectural landmark of political importance. Historic government structure.
+High Court Building,Chennai,Tamil Nadu,Monument,Low,January-March,Moderate,Hot,4.2,Imposing Gothic-Revival architecture. Notable landmark in civic center.
+St. Mary's Church,Chennai,Tamil Nadu,Church,Low,January-March,Low,Hot,4.1,Historic church from colonial era. Important Christian heritage site.
+Snake Park,Chennai,Tamil Nadu,Zoo,Low,January-March,Moderate,Hot,4.2,Reptile conservation and research center. Educational institution.
+Theosophical Society,Chennai,Tamil Nadu,Society,Low,January-March,Low,Hot,4.1,Spiritual and philosophical organization. Historic headquarters in Chennai.
+Birla Planetarium,Chennai,Tamil Nadu,Planetarium,Low,January-March,Moderate,Hot,4.2,Modern astronomical research center. Educational facility with shows.
+MGR Race Course,Chennai,Tamil Nadu,Entertainment,Low,January-March,High,Hot,4.2,Historic horse racing venue. Colonial-era sports facility.
+Chennai Port,Chennai,Tamil Nadu,Monument,Low,January-March,Moderate,Hot,4.1,Historic maritime infrastructure. Important commercial center.
+Tanjavur Brihadeshwara Temple,Thanjavur,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.6,11th-century temple with colossal tower. UNESCO World Heritage Site.
+Saraswati Mahal Library,Thanjavur,Tamil Nadu,Library,Low,January-March,Low,Hot,4.3,Historic library with ancient manuscripts. Cultural repository of Tamil literature.
+Thanjavur Palace,Thanjavur,Tamil Nadu,Palace,Low,January-March,Moderate,Hot,4.2,Royal palace with museum exhibits. Architectural blend of styles.
+Kumbakonam Temples,Kumbakonam,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.4,Ancient temple cluster. Important pilgrimage destination.
+Airavateshwara Temple,Darasuram,Tamil Nadu,Temple,Low,January-March,Low,Hot,4.3,12th-century temple with intricate sculptures. UNESCO World Heritage Site.
+Airavatesvara Temple,Darasuram,Tamil Nadu,Temple,Low,January-March,Low,Hot,4.3,Chola dynasty temple. Known for artistic temple car sculptures.
+Darga Dargah,Ajmer,Rajasthan,Religious Monument,Low,October-March,Very High,Hot,4.4,Important Sufi shrine. Major pilgrimage site for Muslims.
+Ana Sagar Lake,Ajmer,Rajasthan,Lake,Low,October-March,Moderate,Hot,4.2,Historic lake with archaeological remains. Scenic location with gardens.
+Adhai Din Ka Jhompra,Ajmer,Rajasthan,Mosque,Low,October-March,Moderate,Hot,4.2,Medieval mosque with historical significance. Architectural monument.
+Taragarh Fort,Ajmer,Rajasthan,Fort,Low,October-March,Moderate,Hot,4.1,Hilltop fort with panoramic views. Historical military structure.
+Mayo College,Ajmer,Rajasthan,Monument,Low,October-March,Moderate,Hot,4.1,Colonial-era educational institution. Gothic architecture.
+Akbar Palace Museum,Ajmer,Rajasthan,Palace,Low,October-March,Low,Hot,4.1,Historical palace with museum. Important heritage structure.
+Jain Temple,Ajmer,Rajasthan,Temple,Low,October-March,Moderate,Hot,4.2,Religious shrine with spiritual significance. Pilgrimage site.
+Pushkar Temple,Pushkar,Rajasthan,Temple,Low,October-March,Very High,Hot,4.3,Ancient temple around holy lake. Major pilgrimage destination.
+Pushkar Lake,Pushkar,Rajasthan,Lake,Low,October-March,Very High,Hot,4.2,Sacred lake with 52 ghats. Important religious site.
+Varaha Temple,Pushkar,Rajasthan,Temple,Low,October-March,Moderate,Hot,4.2,Ancient Hindu temple. Religious and cultural significance.
+Brahma Temple,Pushkar,Rajasthan,Temple,Low,October-March,Very High,Hot,4.2,World's only temple dedicated to Brahma. Unique religious site.
+Rangji Temple,Pushkar,Rajasthan,Temple,Low,October-March,Moderate,Hot,4.1,Temple showing South Indian architecture. Unique style.
+Sadar Bazar Bazaar,Pushkar,Rajasthan,Market,Low,October-March,Very High,Hot,4.2,Traditional marketplace. Cultural and commercial center.
+Kailash Temple,Ellora,Maharashtra,Temple,Moderate,August-March,Moderate,Moderate,4.6,Largest monolithic temple. UNESCO World Heritage monumental carving.
+Virokhananda Temple,Ellora,Maharashtra,Temple,Moderate,August-March,Moderate,Moderate,4.5,Ancient Buddhist rock-cut temple. UNESCO World Heritage Site.
+Vishvakarma Temple,Ellora,Maharashtra,Temple,Moderate,August-March,Moderate,Moderate,4.4,Buddhist rock-cut temple. UNESCO World Heritage Site.
+Rameshwar Temple,Ellora,Maharashtra,Temple,Moderate,August-March,Moderate,Moderate,4.3,Ancient temple shrine. Important religious site.
+Jain Temple Ellora,Ellora,Maharashtra,Temple,Moderate,August-March,Moderate,Moderate,4.4,Well-preserved Jain temple. Excellent architectural example.
+Ganesh Temple Ajanta,Ajanta,Maharashtra,Temple,Moderate,August-March,Moderate,Moderate,4.3,Ancient Buddhist site. UNESCO World Heritage cave temple.
+Garbhe Vihar Ajanta,Ajanta,Maharashtra,Temple,Moderate,August-March,Moderate,Moderate,4.4,Well-preserved Buddhist cave. UNESCO World Heritage Site.
+Devi Mahal,Aurangabad,Maharashtra,Palace,Moderate,August-March,Low,Moderate,4.2,Historic palace with architectural features. Heritage structure.
+Panchakki Museum,Aurangabad,Maharashtra,Museum,Low,August-March,Low,Moderate,4.2,Historic watermill with museum. Engineering marvel.
+Daulatabad Fort,Aurangabad,Maharashtra,Fort,Low,August-March,Moderate,Moderate,4.3,Historic fort with impressive architecture. Important defense structure.
+Ambazari Fort,Aurangabad,Maharashtra,Fort,Low,August-March,Low,Moderate,4.1,Ancient fort with historical significance. Ruins of important fortress.
+Himroo Weaving,Aurangabad,Maharashtra,Craft,Low,August-March,Moderate,Moderate,4.2,Traditional textile craft center. Cultural heritage site.
+Bibi Ka Maqbara,Aurangabad,Maharashtra,Monument,Low,August-March,Moderate,Moderate,4.3,Mughal mausoleum resembling Taj Mahal. Important historical structure.
+Sufi Dargah,Aurangabad,Maharashtra,Religious Monument,Low,August-March,Moderate,Moderate,4.2,Sufi shrine with pilgrimage importance. Spiritual site.
+Arvi Fort,Aurangabad,Maharashtra,Fort,Low,August-March,Low,Moderate,4.1,Historic hill fort. Important defense structure.
+Vaikasom Temple,Kottayam,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Ancient Hindu temple. Religious and cultural significance.
+Vakom Vijayabheri Temple,Kottayam,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Traditional Kerala temple. Spiritual site.
+Mahabalipuram Stupa,Mahabalipuram,Tamil Nadu,Buddhist Monument,Low,January-March,Moderate,Hot,4.3,Ancient Buddhist structure. Religious site.
+Krishna's Butterball,Mahabalipuram,Tamil Nadu,Monument,Low,January-March,High,Hot,4.2,Massive boulder on hillside. Natural geological wonder.
+Arjuna's Penance,Mahabalipuram,Tamil Nadu,Monument,Low,January-March,High,Hot,4.4,Ancient rock carving. UNESCO World Heritage art.
+Descent of Ganges,Mahabalipuram,Tamil Nadu,Monument,Low,January-March,Moderate,Hot,4.4,Carved rock relief. Ancient sculptural masterpiece.
+Tiger Caves,Mahabalipuram,Tamil Nadu,Cave,Low,January-March,Low,Hot,4.1,Ancient cave temples. Historical site.
+Varaha Cave Temple,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.2,Cave temple structure. Religious monument.
+Shore Temple Complex,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,High,Hot,4.5,Ancient temple group. UNESCO World Heritage Site.
+Five Rathas,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,High,Hot,4.5,Five monolithic temples. UNESCO World Heritage Site.
+Golkonda Fort,Hyderabad,Telangana,Fort,Low,September-March,High,Moderate,4.5,Historic fort complex. UNESCO World Heritage Site.
+Qutb Shahi Tombs,Hyderabad,Telangana,Monument,Low,September-March,Moderate,Moderate,4.3,Historic mausoleum complex. Heritage site.
+Necklace Road,Hyderabad,Telangana,Park,Low,September-March,High,Moderate,4.4,Scenic lake promenade. Urban park.
+Hussain Sagar Lake,Hyderabad,Telangana,Lake,Low,September-March,High,Moderate,4.3,Large artificial lake. Recreation area.
+Birla Mandir,Hyderabad,Telangana,Temple,Low,September-March,Moderate,Moderate,4.3,Modern temple structure. Religious site.
+Birla Science Museum,Hyderabad,Telangana,Museum,Low,September-March,High,Moderate,4.3,Science education museum. Interactive exhibits.
+Lumbini Park,Hyderabad,Telangana,Park,Low,September-March,High,Moderate,4.3,Public garden with monument. Recreation area.
+Umaid Bhawan Palace,Jodhpur,Rajasthan,Palace,Moderate,October-March,Moderate,Hot,4.5,Grand palace complex. Heritage hotel.
+Balsamand Lake,Jodhpur,Rajasthan,Lake,Low,October-March,Low,Hot,4.1,Historic water body. Tourist spot.
+Mandore Garden,Jodhpur,Rajasthan,Garden,Low,October-March,Moderate,Hot,4.2,Historic garden complex. Heritage site.
+Khejarla Fort,Khejarla,Rajasthan,Fort,Moderate,October-March,Low,Hot,4.2,Well-preserved fort. Heritage structure.
+Osian,Osian,Rajasthan,Temple,Low,October-March,Low,Hot,4.1,Ancient temple town. Religious site cluster.
+Sachiya Mata Temple,Osian,Rajasthan,Temple,Low,October-March,Moderate,Hot,4.2,Ancient temple shrine. Pilgrimage destination.
+Desert National Park,Jaisalmer,Rajasthan,Nature Reserve,Low,September-March,Moderate,Hot,4.3,Desert wildlife sanctuary. Ecological site.
+Kuldhara Village,Kuldhara,Rajasthan,Village,Low,October-March,Low,Hot,4.2,Abandoned heritage village. Archaeological site.
+Jaisalmer Museum,Jaisalmer,Rajasthan,Museum,Low,October-March,Moderate,Hot,4.2,Regional museum. Cultural collection.
+Laxminath Temple,Jaisalmer,Rajasthan,Temple,Low,October-March,Low,Hot,4.1,Ancient temple. Religious site.
+Jain Temples Jaisalmer,Jaisalmer,Rajasthan,Temple,Low,October-March,Moderate,Hot,4.3,Jain temple complex. Religious center.
+Maharaja Palace,Jaisalmer,Rajasthan,Palace,Moderate,October-March,High,Hot,4.4,Historic palace structure. Heritage monument.
+Tanot Mata Temple,Tanot,Rajasthan,Temple,Low,October-March,Low,Hot,4.1,Ancient pilgrimage temple. Religious site.
+Pokharan Fort,Pokharan,Rajasthan,Fort,Low,October-March,Low,Hot,4.1,Historic fort structure. Defence monument.
+Salim Singh Ki Haveli,Jaisalmer,Rajasthan,Haveli,Moderate,October-March,Moderate,Hot,4.3,Ornate mansion structure. Heritage building.
+Patwa Ki Haveli,Jaisalmer,Rajasthan,Haveli,Moderate,October-March,Moderate,Hot,4.4,Historic merchant mansion. Heritage site.
+Nathmal Ki Haveli,Jaisalmer,Rajasthan,Haveli,Moderate,October-March,Moderate,Hot,4.3,Beautifully carved mansion. Heritage structure.
+Sam Sand Dune,Jaisalmer,Rajasthan,Natural Wonder,Low,October-March,Moderate,Hot,4.3,Desert sand dune landscape. Tourist spot.
+Amar Sagar Lake,Jaisalmer,Rajasthan,Lake,Low,October-March,Moderate,Hot,4.2,Historic water body. Tourist destination.
+Ghanta Ghar,Jaisalmer,Rajasthan,Monument,Low,October-March,Very High,Hot,4.2,Historic clock tower. Commercial landmark.
+Jaisalmer Havelis,Jaisalmer,Rajasthan,Haveli Cluster,Moderate,October-March,High,Hot,4.3,Historic mansion cluster. Heritage complex.
+Badal Vilas,Jaisalmer,Rajasthan,Palace,Moderate,October-March,Low,Hot,4.2,Historic palace structure. Heritage building.
+Chandragiri Fort,Chandragiri,Andhra Pradesh,Fort,Low,October-March,Moderate,Hot,4.2,Historic hill fort. Defence structure.
+Chandragiri Palace,Chandragiri,Andhra Pradesh,Palace,Low,October-March,Moderate,Hot,4.2,Historical palace. Heritage monument.
+Kailasagiri Park,Visakhapatnam,Andhra Pradesh,Park,Low,October-March,Moderate,Moderate,4.3,Hill top park with sculptures. Tourism destination.
+Simhachalam Temple,Visakhapatnam,Andhra Pradesh,Temple,Low,January-March,Moderate,Moderate,4.3,Ancient hill temple. Pilgrimage site.
+Dolphin's Nose Lighthouse,Visakhapatnam,Andhra Pradesh,Monument,Low,October-March,Moderate,Moderate,4.2,Historic lighthouse. Coastal landmark.
+INS Kurusura Submarine,Visakhapatnam,Andhra Pradesh,Museum,Low,October-March,Moderate,Moderate,4.2,Decommissioned submarine museum. Military heritage.
+Tirupati Railway Station,Tirupati,Andhra Pradesh,Monument,Low,January-March,Moderate,Hot,4.1,Historic railway station. Colonial architecture.
+Shilparamam Art Village,Hyderabad,Telangana,Cultural Village,Moderate,September-March,High,Moderate,4.3,Arts and crafts village. Cultural hub.
+Salarjung Museum,Hyderabad,Telangana,Museum,Low,September-March,High,Moderate,4.4,Premier art museum. World-class collection.
+Chowmahalla Palace,Hyderabad,Telangana,Palace,Moderate,September-March,Moderate,Moderate,4.4,Royal palace complex. Heritage monument.
+Mecca Masjid,Hyderabad,Telangana,Mosque,Low,September-March,Moderate,Moderate,4.3,Historic mosque structure. Religious center.
+Rambagh Palace,Jaipur,Rajasthan,Palace,Moderate,October-March,Moderate,Hot,4.3,Historic royal palace. Heritage hotel.
+Albert Museum,Jodhpur,Rajasthan,Museum,Low,October-March,Moderate,Hot,4.2,Regional museum. Heritage collection.
+Fort Kochi Chinese Fishing Nets,Kochi,Kerala,Monument,Low,Year-round,High,Humid,4.5,Ancient fishing apparatus. Iconic cultural symbol.
+Dutch Palace,Kochi,Kerala,Palace,Moderate,August-March,Moderate,Humid,4.4,Portuguese-Dutch palace architecture. Historic museum.
+Paradesi Synagogue,Kochi,Kerala,Synagogue,Low,Year-round,Moderate,Humid,4.3,Historic Jewish place of worship. Cultural heritage.
+Mattancherry Palace,Kochi,Kerala,Palace,Moderate,August-March,Moderate,Humid,4.3,Historical palace with murals. Important heritage structure.
+St. Francis Church,Kochi,Kerala,Church,Low,Year-round,Moderate,Humid,4.3,Historic church from colonial period. Important Christian site.
+Bolgatty Island,Kochi,Kerala,Island,Moderate,August-March,Moderate,Humid,4.3,Historic island palace. Tourism destination.
+Kathakali Theater,Kochi,Kerala,Theater,Low,Year-round,Moderate,Humid,4.3,Traditional performing arts venue. Cultural heritage.
+Kottayam Backwaters,Kottayam,Kerala,Water Body,Low,October-May,Moderate,Humid,4.3,Scenic water bodies. Popular tourism spot.
+Vembanad Lake,Kottayam,Kerala,Lake,Low,October-May,Moderate,Humid,4.2,Largest lake in Kerala. Important ecological site.
+Ernakulatappan Temple,Kochi,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Ancient Hindu temple. Religious site.
+Santa Cruz Cathedral,Kochi,Kerala,Church,Low,Year-round,Moderate,Humid,4.3,Historic Catholic cathedral. Architectural landmark.
+Raj Palace Museum,Kochi,Kerala,Museum,Moderate,August-March,Low,Humid,4.2,Historical museum. Heritage collection.
+Thripunithura Palace,Thripunithura,Kerala,Palace,Low,Year-round,Low,Humid,4.2,Royal palace complex. Historical structure.
+Hill Palace,Thripunithura,Kerala,Palace,Moderate,August-March,Moderate,Humid,4.3,Archaeological museum in palace. Heritage site.
+Fort St. Angelo,Kannur,Kerala,Fort,Low,Year-round,Low,Humid,4.2,Historic colonial fort. Defense structure.
+Azhakiya Manavalan Temple,Guruvayur,Kerala,Temple,Low,Year-round,Very High,Humid,4.5,Important Hindu pilgrimage site. Ancient temple.
+Guruvayur Temple,Guruvayur,Kerala,Temple,Low,Year-round,Very High,Humid,4.5,Major Hindu pilgrimage temple. Spiritual center.
+Mammiyur Mahadeva Temple,Mammiyur,Kerala,Temple,Low,Year-round,Moderate,Humid,4.3,Ancient temple shrine. Religious site.
+Natanal Perumal Temple,Irinjalakuda,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Traditional temple. Spiritual destination.
+Irinjalakuda Shiva Temple,Irinjalakuda,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Ancient Hindu shrine. Religious center.
+Kunnamkulam Temple,Kunnamkulam,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Historic temple shrine. Pilgrimage site.
+Panangad Shiva Temple,Panangad,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Temple shrine. Religious center.
+Krishnapuram Palace,Krishnapuram,Kerala,Palace,Moderate,August-March,Low,Humid,4.2,Historical palace museum. Heritage site.
+Champakulam Palace,Champakulam,Kerala,Palace,Moderate,August-March,Low,Humid,4.1,Historic palace. Cultural monument.
+Ambalapuzha Sri Krishna Temple,Ambalapuzha,Kerala,Temple,Low,Year-round,Moderate,Humid,4.3,Ancient temple. Pilgrimage site.
+Ambalapuzha Palace,Ambalapuzha,Kerala,Palace,Low,Year-round,Low,Humid,4.1,Palace compound. Heritage structure.
+Harippad Mahavishnu Temple,Harippad,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Temple shrine. Religious site.
+Atiraja Mandapam,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Low,Hot,4.1,Rock temple pavilion. Ancient structure.
+Yali Mandapam,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Low,Hot,4.1,Temple structure. Ancient monument.
+Light House,Mahabalipuram,Tamil Nadu,Monument,Low,January-March,Moderate,Hot,4.1,Historic navigation structure. Coastal landmark.
+Olakkanesvara Temple,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Low,Hot,4.1,Temple shrine. Religious site.
+Sundareshwara Temple,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.2,Hindu temple structure. Religious center.
+Mahabaleshwar Temple,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.1,Temple shrine. Spiritual location.
+Thirukalpa Narayanan Temple,Mahabalipuram,Tamil Nadu,Temple,Low,January-March,Low,Hot,4.1,Hindu temple. Religious site.
+Thirukazhukundram Temple,Thirukazhukundram,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.2,Hilltop temple. Pilgrimage site.
+Crocodile Bank,Mahabalipuram,Tamil Nadu,Zoo,Low,January-March,Moderate,Hot,4.2,Reptile conservation center. Educational facility.
+Dakshina Chitra South Indian Village Museum,Mahabalipuram,Tamil Nadu,Museum,Moderate,January-March,Moderate,Hot,4.3,Living museum complex. Cultural heritage.
+Thirumala Devasthanam,Thirupati,Andhra Pradesh,Temple,Low,January-March,Very High,Hot,4.6,One of India's richest temples. Major pilgrimage site.
+Thripada Veerabhadra Temple,Tirupati,Andhra Pradesh,Temple,Low,January-March,Moderate,Hot,4.2,Ancient temple shrine. Religious site.
+Sri Padmavati Temple,Tirupati,Andhra Pradesh,Temple,Low,January-March,Very High,Hot,4.4,Important pilgrimage temple. Religious center.
+Gopuram Temple Tower,Tirupati,Andhra Pradesh,Monument,Low,January-March,Very High,Hot,4.4,Ornate temple gateway. Architectural landmark.
+Nagarhole National Park,Hunsur,Karnataka,Nature Reserve,Moderate,October-March,Moderate,Moderate,4.4,Tiger reserve and wildlife sanctuary. Biodiversity hotspot.
+Ranganathittu Bird Sanctuary,Srirangapatna,Karnataka,Nature Reserve,Low,September-March,Moderate,Moderate,4.3,Bird conservation area. Ecological site.
+Srirangapatna Island Fort,Srirangapatna,Karnataka,Fort,Low,October-March,Moderate,Hot,4.2,Historic fort island. Defence structure.
+Tipu Sultan Palace,Srirangapatna,Karnataka,Palace,Moderate,October-March,Moderate,Hot,4.3,Historical palace museum. Heritage site.
+Brindavan Gardens,Srirangapatna,Karnataka,Garden,Low,October-March,High,Hot,4.3,Terraced garden complex. Tourist attraction.
+Maharaja's Palace,Mysore,Karnataka,Palace,Moderate,October-March,High,Moderate,4.6,Grand royal residence. Heritage landmark.
+Sri Chamundeshwari Temple,Chamundi Hills,Karnataka,Temple,Moderate,October-March,Moderate,Hot,4.4,Hilltop temple with panoramic views. Pilgrimage site.
+St. Philomena's Church,Mysore,Karnataka,Church,Low,October-March,Moderate,Moderate,4.2,Gothic revival church. Religious landmark.
+Jaganmohan Palace,Mysore,Karnataka,Palace,Moderate,October-March,Moderate,Moderate,4.3,Art gallery in palace. Heritage site.
+Rail Museum,Mysore,Karnataka,Museum,Low,October-March,Moderate,Moderate,4.2,Historic railway museum. Cultural collection.
+Karanji Lake,Mysore,Karnataka,Lake,Low,October-March,Moderate,Hot,4.2,Scenic lake. Recreation area.
+Hosur Fort,Hosur,Karnataka,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Bangalore Fort,Bangalore,Karnataka,Fort,Low,October-March,Very High,Moderate,4.3,Ancient fort complex. Historic landmark.
+Tipu Sultan's Summer Palace,Bangalore,Karnataka,Palace,Moderate,October-March,High,Moderate,4.3,18th-century palace. Heritage site.
+Attara Kacheri,Bangalore,Karnataka,Monument,Low,October-March,Very High,Moderate,4.2,Historic government building. Architectural landmark.
+Vidhana Soudha,Bangalore,Karnataka,Monument,Low,October-March,High,Moderate,4.4,Neo-Dravidian government building. Architectural marvel.
+High Court Building,Bangalore,Karnataka,Monument,Low,October-March,Moderate,Moderate,4.2,Historic judicial building. Architectural landmark.
+St. Mark's Cathedral,Bangalore,Karnataka,Church,Low,October-March,Moderate,Moderate,4.2,Historic church structure. Religious landmark.
+Sri Veerabhadreshwara Temple,Bangalore,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.2,Ancient temple shrine. Religious site.
+Dodda Basavana Gubbi,Bangalore,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.1,Ancient Nandi statue. Religious monument.
+National Gallery of Modern Art,Bangalore,Karnataka,Museum,Low,October-March,Moderate,Moderate,4.2,Art museum. Cultural institution.
+Visvesvaraya Museum,Bangalore,Karnataka,Museum,Low,October-March,Moderate,Moderate,4.2,Science and technology museum. Educational facility.
+Government Museum,Bangalore,Karnataka,Museum,Low,October-March,Moderate,Moderate,4.1,Archaeological and natural history museum. Cultural collection.
+Lalbagh Botanical Garden,Bangalore,Karnataka,Garden,Low,October-March,High,Moderate,4.4,Historic garden complex. Green space.
+Cubbon Park,Bangalore,Karnataka,Park,Low,October-March,High,Moderate,4.3,Urban central park. Recreation area.
+Bangalore Palace,Bangalore,Karnataka,Palace,Moderate,October-March,Moderate,Moderate,4.3,Victorian palace. Heritage site.
+ISKCON Temple,Bangalore,Karnataka,Temple,Low,October-March,High,Moderate,4.4,Modern temple complex. Religious center.
+Nandi Hills Fort,Nandi Hills,Karnataka,Fort,Low,October-March,Moderate,Cool,4.3,Hill fort with panoramic views. Historical site.
+Bhoga Nandeeshwara Temple,Nandi Hills,Karnataka,Temple,Low,October-March,Moderate,Cool,4.2,Ancient hill temple. Religious site.
+Ramnagar Fort,Ramnagar,Karnataka,Fort,Moderate,October-March,Low,Hot,4.1,Historic fort structure. Defence monument.
+Chitradurga Fort,Chitradurga,Karnataka,Fort,Low,October-March,Low,Hot,4.3,Ancient hill fort. Military stronghold.
+Tungabhadra Dam,Hospet,Karnataka,Dam,Low,October-March,Moderate,Hot,4.1,Engineering structure. Recreation area.
+Krishna Raja Sagara Dam,Srirangapatna,Karnataka,Dam,Low,October-March,Moderate,Hot,4.2,Historic dam project. Recreation area.
+Kabini River,Nagarhole,Karnataka,River,Low,October-March,Moderate,Moderate,4.2,Scenic river valley. Nature site.
+Kaveri River,Various,Karnataka,River,Low,Year-round,Moderate,Moderate,4.1,Sacred river. Religious site.
+Coorg Hill Station,Coorg,Karnataka,Hill Station,Moderate,September-March,Moderate,Cool,4.4,Scenic mountain destination. Tourism hotspot.
+Abbey Falls,Coorg,Karnataka,Waterfall,Low,September-March,Moderate,Cool,4.3,Scenic waterfall. Natural attraction.
+Dubare Elephant Camp,Coorg,Karnataka,Wildlife,Moderate,September-March,Moderate,Cool,4.4,Elephant sanctuary. Adventure site.
+Raja's Seat,Coorg,Karnataka,Viewpoint,Low,September-March,High,Cool,4.3,Panoramic viewpoint. Tourist attraction.
+Jatni Fort,Belgaum,Karnataka,Fort,Low,October-March,Low,Hot,4.1,Historic fort site. Defence structure.
+Belgaum Fort,Belgaum,Karnataka,Fort,Low,October-March,Low,Hot,4.2,Medieval fort complex. Historic landmark.
+Jama Masjid Belgaum,Belgaum,Karnataka,Mosque,Low,October-March,Moderate,Hot,4.1,Historic mosque. Religious site.
+Banashankari Temple,Belgaum,Karnataka,Temple,Low,October-March,Moderate,Hot,4.2,Ancient temple shrine. Religious site.
+Siddheshwar Temple,Belgaum,Karnataka,Temple,Low,October-March,Moderate,Hot,4.2,Historic temple. Religious center.
+Lakshmi Narasimha Temple,Belgaum,Karnataka,Temple,Low,October-March,Moderate,Hot,4.2,Ancient temple shrine. Religious site.
+Samadhi of Ramakrishna Paramahamsa,Belgaum,Karnataka,Monument,Low,October-March,Low,Hot,4.1,Spiritual memorial site.
+Sukhasana Siddeshwara Temple,Belgaum,Karnataka,Temple,Low,October-March,Moderate,Hot,4.1,Ancient temple. Religious site.
+Londa Fort,Londa,Karnataka,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Bailhongal Fort,Bailhongal,Karnataka,Fort,Low,October-March,Low,Hot,4.1,Medieval fort. Historic landmark.
+Badami Cave Temple,Badami,Karnataka,Temple,Low,October-March,Moderate,Hot,4.4,Rock-cut cave temple. UNESCO Heritage Site.
+Pattadakal Temple Complex,Pattadakal,Karnataka,Temple,Low,October-March,Moderate,Hot,4.3,Ancient temple complex. UNESCO Heritage Site.
+Aihole Temple Group,Aihole,Karnataka,Temple,Low,October-March,Low,Hot,4.2,Cluster of temples. Archaeological site.
+Mahakuta Temple Compound,Mahakuta,Karnataka,Temple,Low,October-March,Low,Hot,4.1,Ancient temple group. Religious site.
+Rani ki Vav Stepwell,Patan,Gujarat,Temple,Moderate,October-March,Low,Hot,4.4,Intricately carved stepwell. UNESCO Heritage.
+Somanatha Temple,Somnath,Gujarat,Temple,Low,October-March,Moderate,Hot,4.3,Ancient pilgrimage shrine. Religious site.
+Junagadh Fort,Junagadh,Gujarat,Fort,Low,October-March,Moderate,Hot,4.2,Historic fort. Defence structure.
+Pradyumna Temple,Vadodara,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Ancient temple. Religious site.
+Laxmi Vilas Palace,Vadodara,Gujarat,Palace,Moderate,October-March,Moderate,Hot,4.3,Grand royal palace. Heritage hotel.
+Sardar Patel Museum,Vadodara,Gujarat,Museum,Low,October-March,Moderate,Hot,4.2,Historical museum. Cultural collection.
+Gujrat Vilas Palace,Vadodara,Gujarat,Palace,Moderate,October-March,Low,Hot,4.2,Historic palace. Heritage structure.
+Sayaji Park,Vadodara,Gujarat,Park,Low,October-March,Moderate,Hot,4.2,Historic garden. Recreation area.
+EME Temple,Vadodara,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Religious shrine. Spiritual site.
+Baroda Museum,Vadodara,Gujarat,Museum,Low,October-March,Moderate,Hot,4.2,Art and natural history museum. Educational.
+Dhanpur Fort,Dhanpur,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Champaner Archaeological Park,Champaner,Gujarat,Archaeological Site,Low,October-March,Moderate,Hot,4.3,Ancient settlement. UNESCO Heritage.
+Pavagadh Temple,Pavagadh,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Hilltop temple. Pilgrimage site.
+Pavagadh Fort,Pavagadh,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Kalka Temple,Kalka,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Ancient temple. Religious site.
+Jami Masjid Champaner,Champaner,Gujarat,Mosque,Low,October-March,Low,Hot,4.1,Historic mosque. Religious site.
+Saher Ki Masjid,Champaner,Gujarat,Mosque,Low,October-March,Low,Hot,4.1,Medieval mosque. Religious site.
+Nagina Masjid,Champaner,Gujarat,Mosque,Low,October-March,Low,Hot,4.1,Historic mosque. Religious site.
+Ahemdabad Jami Masjid,Ahmedabad,Gujarat,Mosque,Low,October-March,High,Hot,4.2,Historic mosque. Religious site.
+Sidi Saied Mosque,Ahmedabad,Gujarat,Mosque,Low,October-March,Moderate,Hot,4.2,Historic mosque. Architectural landmark.
+Teen Darwaza,Ahmedabad,Gujarat,Monument,Low,October-March,Very High,Hot,4.2,Historic gate. City landmark.
+Calico Museum,Ahmedabad,Gujarat,Museum,Moderate,October-March,Moderate,Hot,4.3,Textile history museum. Cultural center.
+Ahemdabad Textile Museum,Ahmedabad,Gujarat,Museum,Low,October-March,Moderate,Hot,4.2,History of textiles. Educational museum.
+Bazaar of Ahmedabad,Ahmedabad,Gujarat,Market,Low,October-March,Very High,Hot,4.2,Historic marketplace. Commercial center.
+Kankaria Lake,Ahmedabad,Gujarat,Lake,Low,October-March,High,Hot,4.3,Urban lake. Recreation area.
+Mangal Das Ghat,Vadodara,Gujarat,Ghat,Low,October-March,Moderate,Hot,4.1,River ghat. Religious site.
+Narmada River,Vadodara,Gujarat,River,Low,Year-round,Moderate,Hot,4.2,Sacred river. Religious site.
+Bhera Rock Carvings,Bhera,Gujarat,Archaeological,Low,October-March,Low,Hot,4.1,Ancient petroglyphs. Archaeological site.
+Khirasara Talao,Khirasara,Gujarat,Lake,Low,October-March,Low,Hot,4.1,Historic water body. Nature site.
+Bhavnagar Fort,Bhavnagar,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Bhavnagar Museum,Bhavnagar,Gujarat,Museum,Low,October-March,Low,Hot,4.1,Regional museum. Heritage collection.
+Nilambag Palace,Bhavnagar,Gujarat,Palace,Moderate,October-March,Low,Hot,4.2,Historic palace. Heritage structure.
+Palitana Temples,Palitana,Gujarat,Temple,Low,October-March,Moderate,Hot,4.2,Jain temple complex. Pilgrimage site.
+Tulsi Mahakal Devi Temple,Palitana,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Religious shrine. Spiritual site.
+Shatrunjaya Hills,Palitana,Gujarat,Mountain,Moderate,October-March,Moderate,Hot,4.2,Sacred mountain temples. Pilgrimage site.
+Girnar Mountain,Junagadh,Gujarat,Mountain,Moderate,October-March,Moderate,Hot,4.2,Sacred mountain. Pilgrimage site.
+Uparkot Fort,Junagadh,Gujarat,Fort,Low,October-March,Moderate,Hot,4.2,Historic fort. Defence structure.
+Mahabat Maqbara,Junagadh,Gujarat,Monument,Low,October-March,Low,Hot,4.1,Historic mausoleum. Heritage site.
+Ashoka Inscriptions Rock,Junagadh,Gujarat,Monument,Low,October-March,Low,Hot,4.1,Ancient edict site. Archaeological site.
+Dar-e-Kran Monument,Junagadh,Gujarat,Monument,Low,October-March,Low,Hot,4.1,Historic structure. Heritage site.
+Diu Fort,Diu,Gujarat,Fort,Low,October-March,Moderate,Hot,4.2,Colonial fort. Defence structure.
+St. Thomas Church,Diu,Gujarat,Church,Low,October-March,Low,Hot,4.1,Historic church. Religious site.
+Nagoa Beach Fort,Diu,Gujarat,Fort,Low,October-March,Moderate,Hot,4.1,Beach fort. Historic structure.
+Panikotha Fort,Diu,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort ruins. Defence structure.
+Zampa Submarine,Diu,Gujarat,Museum,Low,October-March,Moderate,Hot,4.1,Military submarine. Heritage site.
+Girnar Ropeway,Junagadh,Gujarat,Cable Car,Low,October-March,Moderate,Hot,4.2,Mountain transport. Tourist attraction.
+Prabhasa Patan,Somnath,Gujarat,Religious,Low,October-March,Moderate,Hot,4.2,Pilgrimage area. Religious site.
+Bhalka Tirth,Bhalka,Gujarat,Religious,Low,October-March,Moderate,Hot,4.1,Holy pilgrimage site. Religious center.
+Dwarka Temple,Dwarka,Gujarat,Temple,Low,October-March,Moderate,Hot,4.3,Ancient temple. Pilgrimage site.
+Rukmini Temple,Dwarka,Gujarat,Temple,Low,October-March,Moderate,Hot,4.2,Ancient temple. Religious site.
+Gomti Ghat,Dwarka,Gujarat,Ghat,Low,October-March,Moderate,Hot,4.1,River ghat. Religious site.
+Nageshwar Mahadev Temple,Dwarka,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Religious shrine. Spiritual location.
+Porbandar Lighthouse,Porbandar,Gujarat,Monument,Low,October-March,Moderate,Hot,4.1,Historic lighthouse. Coastal landmark.
+Sudama Birthplace,Porbandar,Gujarat,Religious,Low,October-March,Low,Hot,4.1,Holy birthplace. Religious site.
+Kirti Mandir,Porbandar,Gujarat,Monument,Low,October-March,Moderate,Hot,4.1,Gandhi memorial. Historical site.
+Bhavnagar Maharaja Palace,Bhavnagar,Gujarat,Palace,Moderate,October-March,Low,Hot,4.2,Historic palace. Heritage structure.
+Victoria Park,Bhavnagar,Gujarat,Park,Low,October-March,Moderate,Hot,4.2,Historic garden. Recreation area.
+Gaurishankar Lake,Bhavnagar,Gujarat,Lake,Low,October-March,Moderate,Hot,4.1,Scenic lake. Recreation area.
+Ghogha Beach Fort,Ghogha,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Coastal fort. Defence structure.
+Kartik Mehta Temple,Bhavnagar,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Religious shrine. Spiritual site.
+Manavi Temple,Manavi,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Ancient temple. Religious site.
+Rani Kunvarba Museum,Bhavnagar,Gujarat,Museum,Low,October-March,Low,Hot,4.1,Regional museum. Heritage collection.
+Madhavpur Beach,Madhavpur,Gujarat,Beach,Low,October-March,Moderate,Hot,4.2,Scenic beach. Tourism spot.
+Vidyapati Temple,Vadodara,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Religious shrine. Spiritual site.
+Anand Pillar,Anand,Gujarat,Monument,Low,October-March,Moderate,Hot,4.1,Historic landmark. Heritage structure.
+Navlakhi Temple,Vadodara,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Ancient temple. Religious site.
+Surya Mandir,Modhera,Gujarat,Temple,Low,October-March,Moderate,Hot,4.3,Sun temple. Pilgrimage site.
+Modhera Lake,Modhera,Gujarat,Lake,Low,October-March,Low,Hot,4.1,Historic water body. Nature site.
+Vastrapur Lake,Ahmedabad,Gujarat,Lake,Low,October-March,High,Hot,4.2,Urban lake. Recreation area.
+Sabarmati Ashram,Ahmedabad,Gujarat,Ashram,Low,October-March,High,Moderate,4.4,Gandhi's residence. Historical center.
+Mahatma Mandir,Gandhinagar,Gujarat,Museum,Low,October-March,Moderate,Moderate,4.3,Gandhi museum complex. Historical site.
+Adalaj Vav Stepwell,Adalaj,Gujarat,Monument,Low,October-March,Moderate,Hot,4.3,Historic stepwell. Archaeological site.
+Mohanpur Lighthouse,Porbandar,Gujarat,Monument,Low,October-March,Moderate,Hot,4.1,Historic lighthouse. Coastal landmark.
+Kutch Wildlife Sanctuary,Kutch,Gujarat,Wildlife,Low,October-March,Low,Moderate,4.2,Wildlife reserve. Ecological site.
+Mandvi Beach,Mandvi,Gujarat,Beach,Low,October-March,Low,Hot,4.2,Scenic beach. Tourism destination.
+White Desert,Kutch,Gujarat,Desert,Low,October-March,Moderate,Hot,4.4,Salt desert landscape. Natural wonder.
+Banni Grassland,Kutch,Gujarat,Grassland,Low,October-March,Low,Hot,4.1,Natural grassland. Ecological site.
+Ahmedabad Bazaar Wall,Ahmedabad,Gujarat,Monument,Low,October-March,Very High,Hot,4.1,Historic wall structure. Heritage site.
+Viramgam Fort,Viramgam,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Himmatnagar Fort,Himmatnagar,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Medieval fort. Historic landmark.
+Prabhas Patan Temple,Prabhas Patan,Gujarat,Temple,Low,October-March,Moderate,Hot,4.1,Sacred temple. Pilgrimage site.
+Gir Forest National Park,Gir,Gujarat,Nature Reserve,Moderate,October-March,Moderate,Hot,4.3,Lion sanctuary. Wildlife habitat.
+Veraval Port,Veraval,Gujarat,Harbor,Low,October-March,Moderate,Hot,4.1,Historic port. Commercial center.
+Matsya Avatar Temple,Veraval,Gujarat,Temple,Low,October-March,Low,Hot,4.1,Religious shrine. Spiritual site.
+Jyotirlinga Somnath,Somnath,Gujarat,Temple,Low,October-March,Very High,Hot,4.4,Sacred Shiva temple. Major pilgrimage site.
+Lakshmi Narayan Temple,Somnath,Gujarat,Temple,Low,October-March,Moderate,Hot,4.2,Religious shrine. Spiritual location.
+Bandichand Hill Fort,Bandichand,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Madhubagh,Madhubagh,Gujarat,Garden,Low,October-March,Low,Hot,4.1,Historic garden. Scenic site.
+Sasan Gir,Sasan Gir,Gujarat,Wildlife,Moderate,October-March,Moderate,Hot,4.3,Lion reserve. Wildlife sanctuary.
+Chhota Udepur Fort,Chhota Udepur,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Pavagadh Lake,Pavagadh,Gujarat,Lake,Low,October-March,Moderate,Hot,4.1,Scenic lake. Recreation area.
+Kamleshwar Dam,Kamleshwar,Gujarat,Dam,Low,October-March,Moderate,Hot,4.1,Water structure. Recreation area.
+Jaswant Sagar Dam,Jaswant Sagar,Gujarat,Dam,Low,October-March,Moderate,Hot,4.1,Historic dam. Recreation area.
+Pandya Fort,Pandya,Gujarat,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Gajner Palace,Gajner,Rajasthan,Palace,Moderate,October-March,Low,Hot,4.2,Historic palace. Heritage structure.
+Thar Desert,Thar,Rajasthan,Desert,Low,September-March,Moderate,Hot,4.3,Sand desert landscape. Natural wonder.
+Khimsar Sand Dunes,Khimsar,Rajasthan,Desert,Low,October-March,Moderate,Hot,4.2,Desert sand formation. Tourism spot.
+Ramsar Talao,Jodhpur,Rajasthan,Lake,Low,October-March,Low,Hot,4.1,Historic water body. Nature site.
+Bilara Lake,Bilara,Rajasthan,Lake,Low,October-March,Low,Hot,4.1,Scenic lake. Recreation area.
+Pokharan Lake,Pokharan,Rajasthan,Lake,Low,October-March,Moderate,Hot,4.1,Historic lake. Tourism spot.
+Khejarla Lake,Khejarla,Rajasthan,Lake,Low,October-March,Low,Hot,4.1,Scenic lake. Nature site.
+Tumkur Fort,Tumkur,Karnataka,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Siddaganja Mutt,Siddaganja,Karnataka,Religious Institution,Low,October-March,Moderate,Hot,4.1,Spiritual center. Religious site.
+Turuvekere Talao,Turuvekere,Karnataka,Lake,Low,October-March,Low,Hot,4.1,Scenic lake. Recreation area.
+Marikamba Temple,Shimoga,Karnataka,Temple,Low,October-March,Moderate,Hot,4.2,Religious shrine. Pilgrimage site.
+Shimoga Fort,Shimoga,Karnataka,Fort,Low,October-March,Moderate,Hot,4.1,Historic fort. Defence structure.
+Sri Chaturangaraya Temple,Shimoga,Karnataka,Temple,Low,October-March,Moderate,Hot,4.1,Ancient temple. Religious site.
+Shivapuri Falls,Shimoga,Karnataka,Waterfall,Low,October-March,Moderate,Hot,4.2,Scenic waterfall. Natural attraction.
+Sringeri Sri Sharadamba Temple,Sringeri,Karnataka,Temple,Low,October-March,Moderate,Cool,4.3,Pilgrimage temple. Religious site.
+Murudeshwara Temple,Murudeshwar,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.3,Cliff temple. Pilgrimage site.
+Murudeshwara Raja Gopuram,Murudeshwar,Karnataka,Monument,Low,October-March,Moderate,Moderate,4.3,Tower monument. Architectural landmark.
+Netrani Island,Murudeshwar,Karnataka,Island,Moderate,October-March,Moderate,Moderate,4.2,Island monastery. Historical site.
+Jog Falls,Jog,Karnataka,Waterfall,Moderate,September-March,Moderate,Moderate,4.4,High waterfall cascade. Natural wonder.
+Sharavathi River,Sharavathi,Karnataka,River,Low,Year-round,Moderate,Moderate,4.2,Sacred river valley. Nature site.
+Barkur Fort,Barkur,Karnataka,Fort,Low,October-March,Low,Hot,4.1,Historic fort. Defence structure.
+Baithkol Fort,Baithkol,Karnataka,Fort,Low,October-March,Low,Hot,4.1,Coastal fort. Defence structure.
+Honnavar Port,Honnavar,Karnataka,Harbor,Low,October-March,Moderate,Moderate,4.1,Historic port. Commercial center.
+Udyavar Temple,Udyavar,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.1,Religious shrine. Spiritual site.
+Mangalore Fort,Mangalore,Karnataka,Fort,Low,October-March,Moderate,Moderate,4.2,Historic fort. Defence structure.
+Mangalore Light House,Mangalore,Karnataka,Monument,Low,October-March,Moderate,Moderate,4.2,Historic lighthouse. Coastal landmark.
+Sultan Battery,Mangalore,Karnataka,Monument,Low,October-March,Moderate,Moderate,4.1,Historic fortification. Heritage site.
+Basilica of Our Lady Rosary,Mangalore,Karnataka,Church,Low,October-March,Moderate,Moderate,4.2,Historic church. Religious landmark.
+Milagres Church,Mangalore,Karnataka,Church,Low,October-March,Moderate,Moderate,4.2,Colonial church. Religious site.
+Mangalore Cathedral,Mangalore,Karnataka,Cathedral,Low,October-March,Moderate,Moderate,4.2,Historic cathedral. Religious landmark.
+St. Aloysius Chapel,Mangalore,Karnataka,Chapel,Low,October-March,Moderate,Moderate,4.2,Historic chapel. Religious site.
+Kadri Temple,Mangalore,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.2,Ancient temple. Religious site.
+Someshwara Temple,Gokarna,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.2,Beach temple. Religious site.
+Parshurameswara Temple,Gokarna,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.1,Ancient temple. Pilgrimage site.
+Gokarna Beach,Gokarna,Karnataka,Beach,Low,October-March,Moderate,Moderate,4.3,Scenic beach. Tourism destination.
+Yana Caves,Yana,Karnataka,Cave,Low,October-March,Low,Moderate,4.2,Natural caves. Geological wonder.
+Udupi Sri Krishna Temple,Udupi,Karnataka,Temple,Low,October-March,High,Moderate,4.4,Major pilgrimage temple. Religious center.
+St. Mary's Island,Udupi,Karnataka,Island,Low,October-March,Moderate,Moderate,4.2,Historic island. Tourism spot.
+Manipal Beach,Manipal,Karnataka,Beach,Low,October-March,Moderate,Moderate,4.2,Scenic beach. Recreation area.
+Pilikula Nisargadhama,Mangalore,Karnataka,Nature Reserve,Low,October-March,Moderate,Moderate,4.2,Wildlife sanctuary. Ecological site.
+Padubidri Fort,Padubidri,Karnataka,Fort,Low,October-March,Moderate,Moderate,4.1,Historic fort. Defence structure.
+Shiradi Ghat,Shiradi,Karnataka,Mountain Pass,Low,October-March,Moderate,Cool,4.2,Scenic mountain passage. Tourism site.
+Agumbe Scenic Point,Agumbe,Karnataka,Viewpoint,Low,September-March,Moderate,Humid,4.3,Hill viewpoint. Tourism destination.
+Chikmangalur Coffee Plantations,Chikmangalur,Karnataka,Agricultural,Moderate,September-March,Moderate,Cool,4.3,Coffee estate area. Tourism site.
+Mullayanagiri Peak,Chikmangalur,Karnataka,Mountain,Moderate,September-March,Moderate,Cool,4.4,Highest peak. Adventure site.
+Kemmanagundi Hill Station,Kemmanagundi,Karnataka,Hill Station,Low,September-March,Moderate,Cool,4.3,Mountain destination. Tourism hotspot.
+Baba Budan Giri,Baba Budan,Karnataka,Mountain,Moderate,September-March,Moderate,Cool,4.3,Sacred mountain. Pilgrimage site.
+Sringeri Town,Sringeri,Karnataka,Town,Low,October-March,Moderate,Cool,4.2,Religious center. Pilgrimage destination.
+Kudremukh National Park,Kudremukh,Karnataka,Nature Reserve,Moderate,September-March,Moderate,Cool,4.4,Hill station sanctuary. Ecological site.
+Chikmagalur Rural Heritage,Chikmagalur,Karnataka,Heritage Site,Low,September-March,Moderate,Cool,4.2,Village tourism. Cultural site.
+Kopeshwar Temple,Koppeshwara,Karnataka,Temple,Low,October-March,Low,Cool,4.2,Ancient temple. Religious site.
+Lakxmi Narayana Temple,Bhagamandala,Karnataka,Temple,Low,October-March,Moderate,Cool,4.2,Ancient temple. Religious site.
+Bhagamandala Confluence,Bhagamandala,Karnataka,River Confluence,Low,October-March,Moderate,Cool,4.2,Sacred river meeting. Religious site.
+Talacauvery Nature Camp,Talacauvery,Karnataka,Nature Site,Low,September-March,Low,Cool,4.2,River source area. Nature site.
+Nandi Hills Ascent,Nandi Hills,Karnataka,Mountain,Low,October-March,Moderate,Cool,4.3,Scenic hill viewpoint. Tourism destination.
+Tipu Sultan's Fortress,Bangalore,Karnataka,Fort,Low,October-March,High,Moderate,4.3,Historic palace fortress. Heritage site.
+Bangalore Commercial Street,Bangalore,Karnataka,Shopping District,Low,October-March,Very High,Moderate,4.2,Historic shopping area. Commercial hub.
+Visvesvaraya Industrial Museum,Bangalore,Karnataka,Museum,Low,October-March,Moderate,Moderate,4.2,Industrial heritage museum. Educational.
+Vidhan Soudha Gardens,Bangalore,Karnataka,Garden,Low,October-March,High,Moderate,4.3,Beautiful gardens. Recreation area.
+Ulsoor Lake,Bangalore,Karnataka,Lake,Low,October-March,Moderate,Moderate,4.2,Urban lake. Recreation area.
+Koramangala Lake,Bangalore,Karnataka,Lake,Low,October-March,Moderate,Moderate,4.2,Urban water body. Recreation area.
+Domlur Lake,Bangalore,Karnataka,Lake,Low,October-March,Low,Moderate,4.1,Historic lake. Nature site.
+Puttenahalli Pond,Bangalore,Karnataka,Pond,Low,October-March,Moderate,Moderate,4.2,Restored water body. Recreation area.
+Bellandur Lake,Bangalore,Karnataka,Lake,Low,October-March,Moderate,Moderate,4.2,Scenic lake. Recreation area.
+Indiranagar Lake,Bangalore,Karnataka,Lake,Low,October-March,Low,Moderate,4.1,Urban lake. Nature site.
+Yediyur Lake,Bangalore,Karnataka,Lake,Low,October-March,Low,Moderate,4.1,Historic lake. Nature site.
+Madivala Lake,Bangalore,Karnataka,Lake,Low,October-March,Low,Moderate,4.1,Urban water body. Nature site.
+Sankey Tank,Bangalore,Karnataka,Tank,Low,October-March,Moderate,Moderate,4.2,Historic water tank. Recreation area.
+Halasuru Tank,Bangalore,Karnataka,Tank,Low,October-March,Moderate,Moderate,4.2,Historic temple tank. Religious site.
+Basavanagudi Mantap,Bangalore,Karnataka,Monument,Low,October-March,Moderate,Moderate,4.1,Historic pavilion. Heritage site.
+Sampangi Tank,Bangalore,Karnataka,Tank,Low,October-March,Low,Moderate,4.1,Historic water body. Nature site.
+Javaguntepalya Lake,Bangalore,Karnataka,Lake,Low,October-March,Low,Moderate,4.1,Urban water body. Nature site.
+Puttenahalli Temple,Bangalore,Karnataka,Temple,Low,October-March,Low,Moderate,4.1,Ancient temple. Religious site.
+Venkateshpura Temple,Bangalore,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.1,Religious shrine. Spiritual site.
+Manjunatha Temple,Bangalore,Karnataka,Temple,Low,October-March,Moderate,Moderate,4.1,Ancient temple. Religious site.
+Sri Guru Prasad Mantap,Bangalore,Karnataka,Pavilion,Low,October-March,Low,Moderate,4.1,Historic structure. Heritage site.
+Attur Cave Temple,Attur,Tamil Nadu,Cave,Low,January-March,Low,Hot,4.1,Cave shrine. Religious site.
+Palani Murugan Temple,Palani,Tamil Nadu,Temple,Low,January-March,High,Hot,4.3,Hilltop temple. Pilgrimage site.
+Chettinad Mansions,Chettinad,Tamil Nadu,Heritage Site,Moderate,January-March,Low,Hot,4.3,Mansions cluster. Architectural heritage.
+Devakottai Palace,Devakottai,Tamil Nadu,Palace,Low,January-March,Low,Hot,4.1,Historic palace. Heritage structure.
+Kottaiyam Backwater Cruise,Kottaiyam,Kerala,Waterway,Low,October-May,Moderate,Humid,4.3,Scenic backwater journey. Tourism activity.
+Thekkady Wildlife Reserve,Thekkady,Kerala,Wildlife Reserve,Moderate,October-May,Moderate,Humid,4.4,Elephant sanctuary. Ecological site.
+Kumily Spice Market,Kumily,Kerala,Market,Low,October-May,High,Humid,4.3,Spice trading center. Commercial hub.
+Periyar Lake,Thekkady,Kerala,Lake,Moderate,October-May,Moderate,Humid,4.3,Scenic lake. Recreation area.
+Edakkal Caves,Edakkal,Kerala,Cave,Low,October-May,Moderate,Cool,4.3,Ancient rock carvings. Archaeological site.
+Wayanad Chembra Peak,Wayanad,Kerala,Mountain,Moderate,October-May,Moderate,Cool,4.4,Trekking destination. Adventure site.
+Neelakanta Temple,Wayanad,Kerala,Temple,Low,October-May,Moderate,Cool,4.2,Hilltop temple. Pilgrimage site.
+Pookode Lake,Wayanad,Kerala,Lake,Low,October-May,Moderate,Cool,4.3,Scenic lake. Recreation area.
+Banasura Sagar Dam,Banasura,Kerala,Dam,Low,October-May,Moderate,Cool,4.3,Water reservoir. Recreation area.
+Soochipara Waterfall,Soochipara,Kerala,Waterfall,Low,October-May,Moderate,Cool,4.4,Scenic waterfall. Natural attraction.
+Meenmutty Waterfall,Meenmutty,Kerala,Waterfall,Low,October-May,Moderate,Cool,4.3,Cascading waterfall. Natural attraction.
+Kanthanpara Waterfall,Kanthanpara,Kerala,Waterfall,Low,October-May,Moderate,Cool,4.3,Scenic waterfall. Natural attraction.
+Chennara River,Wayanad,Kerala,River,Low,Year-round,Moderate,Cool,4.2,Mountain river. Nature site.
+Kozhikode Beach,Kozhikode,Kerala,Beach,Low,Year-round,High,Humid,4.3,Historic beach. Tourism destination.
+Kozhikode Fort,Kozhikode,Kerala,Fort,Low,Year-round,Moderate,Humid,4.2,Colonial fort. Defence structure.
+Kappad Beach,Kappad,Kerala,Beach,Low,Year-round,Moderate,Humid,4.3,Historic beach. Tourism destination.
+Thalassery Fort,Thalassery,Kerala,Fort,Low,Year-round,Moderate,Humid,4.2,Colonial fort. Defence structure.
+Thalassery Lighthouse,Thalassery,Kerala,Lighthouse,Low,Year-round,Moderate,Humid,4.2,Historic lighthouse. Coastal landmark.
+Kannur Fort,Kannur,Kerala,Fort,Low,Year-round,Moderate,Humid,4.2,Ancient fort. Defence structure.
+Mappila Bay,Kannur,Kerala,Bay,Low,Year-round,Moderate,Humid,4.2,Scenic bay. Tourism site.
+Anjali Devi Temple,Kannur,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Religious shrine. Spiritual site.
+Paliport Beach,Paliport,Kerala,Beach,Low,Year-round,Moderate,Humid,4.2,Scenic beach. Tourism destination.
+Karatya Fort,Karatya,Kerala,Fort,Low,Year-round,Low,Humid,4.1,Historic fort. Defence structure.
+Panthalayini Temple,Panthalayini,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Ancient temple. Religious site.
+Pazhayangadi,Pazhayangadi,Kerala,Church,Low,Year-round,Moderate,Humid,4.2,Historic church. Religious site.
+Muzhappilangad Beach,Muzhappilangad,Kerala,Beach,Low,Year-round,Moderate,Humid,4.3,Scenic beach. Tourism spot.
+Bavali Rocks,Bavali,Kerala,Rock Formation,Low,Year-round,Low,Humid,4.2,Natural rock site. Nature attraction.
+Kasaragod Delta,Kasaragod,Kerala,Delta Region,Low,Year-round,Moderate,Humid,4.2,River delta area. Ecological site.
+Bekal Fort,Bekal,Kerala,Fort,Low,Year-round,Moderate,Humid,4.3,Historic fort. Defence structure.
+Bekal Beach,Bekal,Kerala,Beach,Low,Year-round,Moderate,Humid,4.3,Scenic beach. Tourism destination.
+Bekal Hole,Bekal,Kerala,Cave,Low,Year-round,Low,Humid,4.2,Natural cave. Geological site.
+Palliport Fort,Palliport,Kerala,Fort,Low,Year-round,Low,Humid,4.1,Historic fort. Defence structure.
+Chandragiri Cave,Chandragiri,Kerala,Cave,Low,Year-round,Low,Humid,4.1,Natural cave. Geological site.
+Kaniyur Fort,Kaniyur,Kerala,Fort,Low,Year-round,Low,Humid,4.1,Historic fort. Defence structure.
+Kannur Lighthouse,Kannur,Kerala,Lighthouse,Low,Year-round,Moderate,Humid,4.2,Historic lighthouse. Coastal landmark.
+Priyadarshini Park,Kottayam,Kerala,Park,Low,Year-round,Moderate,Humid,4.2,Public garden. Recreation area.
+Aymanam Backwater,Aymanam,Kerala,Backwater,Low,October-May,Moderate,Humid,4.2,Scenic waterway. Tourism site.
+Kumarakom Lake,Kumarakom,Kerala,Lake,Low,October-May,Moderate,Humid,4.3,Bird sanctuary lake. Ecological site.
+Vaikom Shiva Temple,Vaikom,Kerala,Temple,Low,Year-round,Moderate,Humid,4.3,Ancient temple. Pilgrimage site.
+Kodimatha Mahadeva Temple,Kodimatha,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Religious shrine. Spiritual site.
+Theerthala Temple,Theerthala,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Ancient temple. Religious site.
+Mammiyur Samadhi,Mammiyur,Kerala,Monument,Low,Year-round,Low,Humid,4.1,Spiritual memorial. Religious site.
+Neerattu Temple,Neerattu,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Ancient temple. Religious site.
+Arthat Temple,Arthat,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Religious shrine. Spiritual site.
+Erumeli Shiva Temple,Erumeli,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Ancient temple. Religious site.
+Kavali Temple,Kavali,Kerala,Temple,Low,Year-round,Low,Humid,4.1,Temple shrine. Religious site.
+Thiruvalla Convent,Thiruvalla,Kerala,Church,Low,Year-round,Moderate,Humid,4.2,Historic convent. Religious site.
+Thiruvalla Temple,Thiruvalla,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Ancient temple. Religious site.
+Kadavoor Temple,Kadavoor,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Temple shrine. Religious site.
+Karoor Temple,Karoor,Kerala,Temple,Low,Year-round,Low,Humid,4.1,Ancient temple. Religious site.
+Kizhakkambalam Bridge,Kizhakkambalam,Kerala,Bridge,Low,Year-round,Moderate,Humid,4.1,Historic bridge. Engineering landmark.
+Edamattom Church,Edamattom,Kerala,Church,Low,Year-round,Moderate,Humid,4.2,Historic church. Religious site.
+Edamattom Cross,Edamattom,Kerala,Monument,Low,Year-round,Moderate,Humid,4.1,Religious monument. Heritage site.
+Aruvithura Perumal Temple,Aruvithura,Kerala,Temple,Low,Year-round,Moderate,Humid,4.2,Ancient temple. Religious site.
+Cherthala Beach,Cherthala,Kerala,Beach,Low,Year-round,Moderate,Humid,4.2,Scenic beach. Recreation area.
+Mannar Temple,Mannar,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Temple shrine. Religious site.
+Karumathur Temple,Karumathur,Kerala,Temple,Low,Year-round,Moderate,Humid,4.1,Ancient temple. Religious site.
+Pallippad Greek Orthodox Church,Pallippad,Kerala,Church,Low,Year-round,Moderate,Humid,4.2,Historic church. Religious site.
+Pallippad Saint Mary's Church,Pallippad,Kerala,Church,Low,Year-round,Moderate,Humid,4.2,Religious landmark. Heritage site.
+Karoor Temple Complex,Karoor,Kerala,Temple Complex,Low,Year-round,Moderate,Humid,4.2,Multiple temples. Religious site.
+Mahabalipuram Cave Temple,Mahabalipuram,Tamil Nadu,Cave,Low,January-March,Moderate,Hot,4.2,Ancient cave shrine. Archaeological site.
+Kailasanatha Rock Temple,Kanchi,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.3,Rock-cut temple. Ancient architecture.
+Kanchipuram Silk Saree Industry,Kanchipuram,Tamil Nadu,Craft,Low,January-March,Moderate,Hot,4.2,Silk weaving center. Cultural hub.
+Kamakshi Amman Temple,Kanchipuram,Tamil Nadu,Temple,Low,January-March,High,Hot,4.4,Major pilgrimage temple. Religious center.
+Ekambaranatha Temple,Kanchipuram,Tamil Nadu,Temple,Low,January-March,High,Hot,4.4,Ancient temple. Pilgrimage site.
+Varadaraja Perumal Temple,Kanchipuram,Tamil Nadu,Temple,Low,January-March,High,Hot,4.4,Major pilgrimage temple. Religious site.
+Kukkeshwar Devi Temple,Vellore,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.2,Religious shrine. Spiritual site.
+Vellore Fort,Vellore,Tamil Nadu,Fort,Low,January-March,Moderate,Hot,4.3,Historic fort. Defence structure.
+Jalakanteswara Temple,Vellore,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.2,Ancient temple. Religious site.
+Ranganathaswamy Temple,Srirangam,Tamil Nadu,Temple,Low,January-March,High,Hot,4.4,Major pilgrimage temple. Religious center.
+Akalanatha Temple,Srirangam,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.2,Temple shrine. Religious site.
+Ranganatha Perumal Temple,Srirangam,Tamil Nadu,Temple,Low,January-March,Moderate,Hot,4.3,Ancient temple. Religious site.

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heritage AI — Smart Tourism Recommendation System</title>
+  <meta name="description" content="AI-based historical monument and smart tourism recommendation system for India." />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="brand">🏛 Heritage AI</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/form">Recommend</a></li>
+        <li><a href="/results">Results</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Discover India's Timeless Heritage</h1>
+      <p>
+        An AI-powered companion that recommends the perfect historical monuments
+        and cultural destinations across India — tailored to your taste, season,
+        and budget.
+      </p>
+      <a href="/form" class="btn btn-gold">Get Recommendations →</a>
+    </div>
+  </section>
+
+  <!-- ===== Featured Monuments ===== -->
+  <section class="section">
+    <h2 class="section-title">Featured Monuments</h2>
+    <p class="section-sub">
+      A glimpse of iconic places our recommendation engine often suggests.
+    </p>
+
+    <div class="cards-grid">
+      <!-- Card 1 -->
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80" alt="Taj Mahal" />
+        <div class="card-body">
+          <h3 class="card-title">Taj Mahal</h3>
+          <p class="card-meta">Agra, Uttar Pradesh • Mughal</p>
+          <p class="card-desc">A symbol of eternal love, this white marble mausoleum is a UNESCO World Heritage Site.</p>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80" alt="Hawa Mahal" />
+        <div class="card-body">
+          <h3 class="card-title">Hawa Mahal</h3>
+          <p class="card-meta">Jaipur, Rajasthan • Royal</p>
+          <p class="card-desc">The “Palace of Winds” — a five-storey pink sandstone marvel with 953 windows.</p>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80" alt="Qutub Minar" />
+        <div class="card-body">
+          <h3 class="card-title">Qutub Minar</h3>
+          <p class="card-meta">Delhi • Ancient</p>
+          <p class="card-desc">The tallest brick minaret in the world, standing tall since the 12th century.</p>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80" alt="Mysore Palace" />
+        <div class="card-body">
+          <h3 class="card-title">Mysore Palace</h3>
+          <p class="card-meta">Mysore, Karnataka • Royal</p>
+          <p class="card-desc">A stunning Indo-Saracenic palace illuminated by nearly 100,000 bulbs every evening.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    © 2025 Heritage AI • Built for academic demonstration • <a href="about.html">About this project</a>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Recommendations — Heritage AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="brand">🏛 Heritage AI</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/form" class="active">Recommend</a></li>
+        <li><a href="/results">Results</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Form ===== -->
+  <main class="form-wrapper">
+    <form class="form-card" action="/results" method="post">
+      <h2>Tell us your travel preferences</h2>
+      <p class="lead">Our ML model will recommend the best Indian heritage spots for you.</p>
+
+      <div class="form-grid">
+
+        <!-- Historical category -->
+        <div class="form-group">
+          <label for="category">Historical Category</label>
+          <select id="category" name="category">
+            <option value="">-- Select a Category --</option>
+            <option value="Temple">Temple</option>
+            <option value="Fort">Fort</option>
+            <option value="Monument">Monument</option>
+            <option value="Palace">Palace</option>
+            <option value="UNESCO World Heritage">UNESCO World Heritage</option>
+            <option value="Religious">Religious</option>
+            <option value="Buddhist Monument">Buddhist Monument</option>
+            <option value="Archaeological Monument">Archaeological Monument</option>
+            <option value="Buddhist Temple">Buddhist Temple</option>
+            <option value="Entertainment">Entertainment</option>
+          </select>
+        </div>
+
+        <!-- Budget -->
+        <div class="form-group">
+          <label for="budget">Budget</label>
+          <select id="budget" name="budget">
+            <option value="">-- Select Budget --</option>
+            <option value="Low">Low</option>
+            <option value="Moderate">Moderate</option>
+            <option value="High">High</option>
+          </select>
+        </div>
+
+        <!-- State / city -->
+        <div class="form-group">
+          <label for="state_city">Preferred State / City</label>
+          <select id="state_city" name="state_city">
+            <option value="">-- Select a State or City --</option>
+            <option value="Agra">Agra</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Aurangabad">Aurangabad</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Bodh Gaya">Bodh Gaya</option>
+            <option value="Chitradurga">Chitradurga</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gurgaon">Gurgaon</option>
+            <option value="Guwahati">Guwahati</option>
+            <option value="Hampi">Hampi</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Jaisalmer">Jaisalmer</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kochi">Kochi</option>
+            <option value="Kochi, Kerala">Fort Kochi</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Konark">Konark</option>
+            <option value="Khajuraho">Khajuraho</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Madurai">Madurai</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Mysore">Mysore</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Ranthambore">Ranthambore</option>
+            <option value="Sanchi">Sanchi</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tirupati">Tirupati</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Varanasi">Varanasi</option>
+            <option value="West Bengal">West Bengal</option>
+          </select>
+        </div>
+
+        <!-- Travel duration -->
+        <div class="form-group">
+          <label for="duration">Travel Duration (days)</label>
+          <input type="number" id="duration" name="duration" min="1" max="30" placeholder="e.g. 5" />
+        </div>
+
+        <!-- Season -->
+        <div class="form-group">
+          <label for="season">Preferred Season</label>
+          <select id="season" name="season">
+            <option value="">-- Select Season --</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+          </select>
+        </div>
+
+        <!-- Crowd -->
+        <div class="form-group">
+          <label for="crowd">Crowd Preference</label>
+          <select id="crowd" name="crowd">
+            <option value="">-- Select Preference --</option>
+            <option value="Low">Low</option>
+            <option value="Moderate">Moderate</option>
+            <option value="High">High</option>
+            <option value="Very High">Very High</option>
+          </select>
+        </div>
+
+        <!-- Weather -->
+        <div class="form-group">
+          <label for="weather">Weather Preference</label>
+          <select id="weather" name="weather">
+            <option value="">-- Select Weather --</option>
+            <option value="Hot">Hot</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Cold">Cold</option>
+            <option value="Humid">Humid</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn">Get My Recommendations</button>
+      </div>
+    </form>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">© 2025 Heritage AI • Recommendation Form</footer>
+
+</body>
+</html>
