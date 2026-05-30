@@ -1,18 +1,3 @@
-"""
-Recommendation Engine Module
-=============================
-This module provides machine learning-based recommendations for historical monuments
-using TF-IDF vectorization and cosine similarity scoring.
-
-Key functions:
-- get_recommendations(user_preferences): Main function to get monument recommendations
-- preprocess_data(): Load and clean monument data
-- create_feature_vector(): Combine features for vectorization
-- compute_similarity(): Calculate similarity scores between user input and monuments
-- filter_recommendations(): Apply user preference filters
-- rank_and_return(): Rank recommendations and return top results
-"""
-
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer

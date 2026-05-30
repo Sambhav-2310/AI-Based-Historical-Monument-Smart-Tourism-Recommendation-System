@@ -23,6 +23,90 @@ import os
 
 
 # ============================================================
+# HELPER FUNCTIONS
+# ============================================================
+
+def check_match_details(rec, user_prefs):
+    """
+    Check what matches and what doesn't match for a recommendation.
+    Returns dict with match details and calculates perfect match.
+    """
+    matches = []
+    mismatches = []
+    selected_criteria_count = 0
+    matched_criteria_count = 0
+    
+    # Check category
+    if user_prefs.get('category'):
+        selected_criteria_count += 1
+        if user_prefs['category'].lower() in rec['category'].lower():
+            matches.append(f"Category: {rec['category']}")
+            matched_criteria_count += 1
+        else:
+            mismatches.append(f"Category: Expected {user_prefs['category']}, got {rec['category']}")
+    
+    # Check budget
+    if user_prefs.get('budget'):
+        selected_criteria_count += 1
+        if user_prefs['budget'].lower() == rec['budget'].lower():
+            matches.append(f"Budget: {rec['budget']}")
+            matched_criteria_count += 1
+        else:
+            mismatches.append(f"Budget: Expected {user_prefs['budget']}, got {rec['budget']}")
+    
+    # Check location/state
+    if user_prefs.get('state_city'):
+        selected_criteria_count += 1
+        user_loc = user_prefs['state_city'].lower()
+        rec_city = rec['city'].lower()
+        rec_state = rec['state'].lower()
+        if user_loc in rec_city or user_loc in rec_state:
+            matches.append(f"Location: {rec['city']}, {rec['state']}")
+            matched_criteria_count += 1
+        else:
+            mismatches.append(f"Location: Expected {user_prefs['state_city']}, got {rec['city']}, {rec['state']}")
+    
+    # Check season
+    if user_prefs.get('season'):
+        selected_criteria_count += 1
+        if user_prefs['season'].lower() in rec['season'].lower():
+            matches.append(f"Season: {rec['season']}")
+            matched_criteria_count += 1
+        else:
+            mismatches.append(f"Season: Expected {user_prefs['season']}, got {rec['season']}")
+    
+    # Check crowd level
+    if user_prefs.get('crowd'):
+        selected_criteria_count += 1
+        if user_prefs['crowd'].lower() == rec['crowd_level'].lower():
+            matches.append(f"Crowd: {rec['crowd_level']}")
+            matched_criteria_count += 1
+        else:
+            mismatches.append(f"Crowd: Expected {user_prefs['crowd']}, got {rec['crowd_level']}")
+    
+    # Check weather
+    if user_prefs.get('weather'):
+        selected_criteria_count += 1
+        if user_prefs['weather'].lower() == rec['weather'].lower():
+            matches.append(f"Weather: {rec['weather']}")
+            matched_criteria_count += 1
+        else:
+            mismatches.append(f"Weather: Expected {user_prefs['weather']}, got {rec['weather']}")
+    
+    # Calculate perfect match: if all selected criteria match, it's 100%
+    is_perfect_match = (selected_criteria_count > 0 and matched_criteria_count == selected_criteria_count)
+    adjusted_match_score = 100.0 if is_perfect_match else rec.get('match_score', 0)
+    
+    return {
+        'matches': matches,
+        'mismatches': mismatches,
+        'match_percentage': rec.get('match_score', 0),
+        'adjusted_match_percentage': adjusted_match_score,
+        'is_perfect_match': is_perfect_match
+    }
+
+
+# ============================================================
 # FLASK APP INITIALIZATION
 # ============================================================
 
@@ -176,21 +260,45 @@ def results():
                 error_message = "❌ No recommendations found. Please try different preferences."
                 return render_template('results.html', 
                                      recommendations=[], 
+                                     perfect_matches=[],
+                                     partial_matches=[],
                                      user_prefs=user_prefs,
                                      error_message=error_message)
             
+            # Step 5: Separate perfect matches from partial matches and add match details
+            perfect_matches = []
+            partial_matches = []
+            
+            for rec in recommendations:
+                match_details = check_match_details(rec, user_prefs)
+                rec['match_details'] = match_details
+                
+                # Use adjusted match score for categorization
+                if match_details['adjusted_match_percentage'] == 100.0:
+                    # Update the display score to 100% for perfect matches
+                    rec['match_score'] = 100.0
+                    perfect_matches.append(rec)
+                else:
+                    partial_matches.append(rec)
+            
             print(f"\n✅ Successfully generated {len(recommendations)} recommendations")
+            print(f"   Perfect matches (100%): {len(perfect_matches)}")
+            print(f"   Partial matches (<100%): {len(partial_matches)}")
             
         except Exception as e:
             error_message = f"❌ Error processing request: {str(e)}"
             print(f"Error: {error_message}")
             return render_template('results.html', 
                                  recommendations=[], 
+                                 perfect_matches=[],
+                                 partial_matches=[],
                                  user_prefs={},
                                  error_message=error_message)
     
     return render_template('results.html', 
                          recommendations=recommendations, 
+                         perfect_matches=perfect_matches if request.method == 'POST' else [],
+                         partial_matches=partial_matches if request.method == 'POST' else [],
                          user_prefs=user_prefs,
                          error_message=error_message)
 
@@ -248,6 +356,14 @@ def api_get_recommendations():
         
         # Get recommendations
         recommendations = get_recommendations(user_prefs, num_recommendations=15)
+        
+        # Add match details to each recommendation and adjust scores
+        for rec in recommendations:
+            match_details = check_match_details(rec, user_prefs)
+            rec['match_details'] = match_details
+            # Update score to 100% if all selected criteria match
+            if match_details['adjusted_match_percentage'] == 100.0:
+                rec['match_score'] = 100.0
         
         return jsonify({
             'success': True,

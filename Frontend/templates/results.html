@@ -151,18 +151,20 @@
     {% endif %}
 
     <!-- Results Section -->
-    {% if recommendations and recommendations|length > 0 %}
+    {% if perfect_matches and perfect_matches|length > 0 %}
     
+    <!-- PERFECT MATCHES SECTION -->
     <section class="section">
-      <h2 class="section-title">🏆 Recommended Monuments For You</h2>
+      <h2 class="section-title" style="color: #2ecc71; border-bottom: 3px solid #2ecc71; padding-bottom: 15px;">
+        ✨ PERFECT MATCHES FOR YOU (100%)
+      </h2>
       <p class="section-sub">
-        Based on your preferences, our ML model suggests these {{ recommendations|length }} heritage destinations.
+        These monuments match all your preferences perfectly!
       </p>
 
       <div class="cards-grid">
-        
-        {% for rec in recommendations %}
-        <article class="card">
+        {% for rec in perfect_matches %}
+        <article class="card" style="border: 3px solid #2ecc71; box-shadow: 0 0 15px rgba(46, 204, 113, 0.3);">
           <div class="card-body">
             <!-- Monument Name & Rating -->
             <h3 class="card-title">{{ rec.monument }}</h3>
@@ -186,14 +188,99 @@
               <span class="tag">🌡️ {{ rec.weather }}</span>
             </div>
             
+            <!-- Match Details for Perfect Matches -->
+            {% if rec.match_details %}
+              <div style="margin-top: 10px; padding: 10px; background-color: #f0fff4; border-radius: 5px; border-left: 4px solid #2ecc71;">
+                <strong style="color: #2ecc71;">✓ What Matches:</strong>
+                <ul style="margin: 5px 0; padding-left: 20px; font-size: 0.9em;">
+                  {% for match in rec.match_details.matches %}
+                    <li>{{ match }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+            
             <!-- Match Score -->
-            <div class="match-score">
+            <div class="match-score" style="background-color: #2ecc71; color: white; text-align: center; padding: 8px; border-radius: 5px; font-weight: bold;">
+              Match: {{ rec.match_score }}% ✓
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+    
+    <!-- PARTIAL MATCHES SECTION -->
+    {% if partial_matches and partial_matches|length > 0 %}
+    <section class="section">
+      <h2 class="section-title" style="color: #f39c12; border-bottom: 3px solid #f39c12; padding-bottom: 15px;">
+        💡 These Monuments are not 100% match for your choice but you can visit these too...
+      </h2>
+      <p class="section-sub">
+        These destinations match most of your preferences, but miss a few criteria. Still great options!
+      </p>
+
+      <div class="cards-grid">
+        {% for rec in partial_matches %}
+        <article class="card" style="border: 2px solid #f39c12; opacity: 0.95;">
+          <div class="card-body">
+            <!-- Monument Name & Rating -->
+            <h3 class="card-title">{{ rec.monument }}</h3>
+            <div class="card-rating">
+              <span class="star">⭐</span>
+              <strong>{{ rec.rating }}</strong>
+            </div>
+            
+            <!-- Location -->
+            <p class="card-meta">📍 {{ rec.city }}, {{ rec.state }}</p>
+            
+            <!-- Description -->
+            <p class="card-desc">{{ rec.description }}</p>
+            
+            <!-- Details Tags -->
+            <div class="card-tags">
+              <span class="tag">📂 {{ rec.category }}</span>
+              <span class="tag">💰 {{ rec.budget }}</span>
+              <span class="tag">🌤️ {{ rec.season }}</span>
+              <span class="tag">👥 {{ rec.crowd_level }}</span>
+              <span class="tag">🌡️ {{ rec.weather }}</span>
+            </div>
+            
+            <!-- Match Details for Partial Matches -->
+            {% if rec.match_details %}
+              <!-- What Matches -->
+              {% if rec.match_details.matches %}
+                <div style="margin-top: 10px; padding: 10px; background-color: #f0fff4; border-radius: 5px; border-left: 4px solid #27ae60; margin-bottom: 10px;">
+                  <strong style="color: #27ae60;">✓ What Matches:</strong>
+                  <ul style="margin: 5px 0; padding-left: 20px; font-size: 0.85em;">
+                    {% for match in rec.match_details.matches %}
+                      <li>{{ match }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+              
+              <!-- What Doesn't Match -->
+              {% if rec.match_details.mismatches %}
+                <div style="margin-top: 10px; padding: 10px; background-color: #fff5f0; border-radius: 5px; border-left: 4px solid #e74c3c;">
+                  <strong style="color: #e74c3c;">✗ What Doesn't Match:</strong>
+                  <ul style="margin: 5px 0; padding-left: 20px; font-size: 0.85em; color: #c0392b;">
+                    {% for mismatch in rec.match_details.mismatches %}
+                      <li>{{ mismatch }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+            {% endif %}
+            
+            <!-- Match Score -->
+            <div class="match-score" style="background-color: #f39c12; color: white; text-align: center; padding: 8px; border-radius: 5px; font-weight: bold; margin-top: 10px;">
               Match: {{ rec.match_score }}%
             </div>
           </div>
         </article>
         {% endfor %}
-        
       </div>
 
       <!-- Action Buttons -->
@@ -202,10 +289,19 @@
         <a href="/" class="btn">🏠 Back Home</a>
       </div>
     </section>
-
-    {% else %}
     
+    {% elif perfect_matches and perfect_matches|length > 0 %}
+    
+    <!-- Action Buttons (for perfect matches only) -->
+    <div style="text-align: center; margin-top: 40px; display: flex; justify-content: center; gap: 15px;">
+      <a href="/form" class="btn btn-gold">← Refine Preferences</a>
+      <a href="/" class="btn">🏠 Back Home</a>
+    </div>
+    
+    {% endif %}
+
     <!-- No Results Case -->
+    {% if not perfect_matches and not partial_matches %}
     <section class="section" style="text-align: center;">
       <h2 class="section-title">[WARNING] No Recommendations Found</h2>
       <p class="section-sub">
@@ -215,7 +311,6 @@
         <a href="/form" class="btn btn-gold">← Try Different Preferences</a>
       </div>
     </section>
-    
     {% endif %}
 
     {% endif %}
